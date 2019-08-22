@@ -1,0 +1,32 @@
+Cleanroom maintenance
+---------------------
+
+Procedure performed according to SOP 301-v0
+
+Date                : ___________
+
+Time start          : _____  end: _____
+
+Operator name       : _______________
+
+This reports        : [ ] Regular daily maintenance
+                      [ ] Regular weekly maintenance
+		      [ ] Special maintenance
+
+Sticky mats changed : [ ] Yes  [ ] No
+
+    Current number inside : ______
+
+    Current number outside: ______
+
+Floor cleaned       : [ ] Yes  [ ] No
+
+
+Special observations:
+
+
+
+
+Comments:
+
+

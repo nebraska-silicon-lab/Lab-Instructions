@@ -1,0 +1,79 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Module assembly: Deliveries of HDI}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{101}
+\sopversion{v1}
+\sopabstract{Describes the procedures upon receiving if HDI. This includes tests performed, documentation and storage.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This is a regular part in the manufacturing process of pixel modules at UNL. This process gets triggered upon delivery of a shipment with HDI.
+
+%------------------------------------------------------------------
+\section{Purpose}
+HDI are a critical part for manufacturing modules. This procedures ensures the bookkeping of new deliveries and triggers required testing procedures. In case of issues this procedure triggers communication with suppliers.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+\section{Responsibilities}
+
+\begin{itemize}
+    \item Shipper: Informs us of any shipment underway (usually Fermilab is the shipper).
+    \item Business office: Informs us of received shipments
+    \item SiLab Team member: Picks up shipment and follows instructions. Keeps new deliveries separate from already handled deliveries until this procedure has been finished.
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+    \item Probe station
+    \item Microscope with USB camera attached and illumination
+    \item Tweezers for HDI handling
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Procedure}
+
+\subsection{Delivery options}
+Shipments can come in two ways and the procedures described in the next sub-section need to be adjusted.
+\begin{enumerate}
+    \item \textbf{HDI shipped on module carriers.} This is the regular and preferred way. The module carriers will be packed in sealed conductive plastic tubing (ESD safe foil) placed in cardboard shipping boxes padded with conductive foam.
+    \item \textbf{HDI placed inside ESD-safe plastic boxes.} This is the alternative way. HDI will fixed inside the boxes using Kapton tape. Any instructions related to the module carrier do not apply, e.g.~there is no plastic cover to be removed. Any handling of HDI has to be extra careful as Kapton tape may be dangling around when HDI need to be removed from the ESD-safe boxes.
+\end{enumerate}
+
+\subsection{Inspection procedure}
+\begin{enumerate}
+    \item Unpack delivery in lab room outside the cleanroom but keep ESD protection closed until transferred into cleanroom. Do not bring cardboard boxes into cleanroom.
+    \item Transfer HDI inside the cleanroom.
+    \item Handle HDI only with proper protection: ESD wristband, gloves, face mask. HDI can be handled safely only on the endholders. Make sure to not touch the surface as this may infer the bonding pad quality or damage the wirebonds.
+    \item Cut ESD foil and remove the plastic cap by loosening the four screws. Get a first impression: Shipment should be in order and no immediate damage is visible.
+    \item Take note of the serial numbers of HDI included in the delivery. Instructions on how to translate the number found on the HDI into the number we use for reference are in SOP~000.
+    \item Compare list of serial numbers with delivery statement. Report any inconsistency in documentation and inform shipper.
+    \item Record the serial numbers of the HDI in the Purdue database (``MAIN MENU''$\rightarrow$``HDI Submit''). Leave ``Additional Notes'' empty if nothing special to report, otherwise report any findings. Upload images as needed.
+    \item Perform the visual inspection of HDI according to SOP~201.
+    \item Update Purdue database. The following steps need to be done for every HDI in the delivery:
+    \begin{enumerate}
+        \item Retrieve the HDI: ``MAIN MENU''$\rightarrow$``Part List'', go to the HDI list and click on the HDI number you want to update.
+        \item Select ``Update Status''.
+        \item Check the tickmark ``Inspected''. Document any findings in the text box. If needed, upload images (``Add a Picture''). Enter your name and hit ``SUBMIT''.
+        \item If the HDI was ok, select tickmark ``Ready for Assembly'', otherwise ``Reject''. In the latter case, add a brief reason for the rejection. Hit ``SUBMIT''.
+    \end{enumerate}
+    \item Only if requested: Perform the electrical acceptance test of HDI according to SOP~204.
+    \item Failed HDI should be clearly marked as such and kept separate from good ones. Shipper needs to be informed and action taken.
+\end{enumerate}
+
+%------------------------------------------------------------------
+\section{Documentation}
+Everything needs to be documented in the Purdue database per the instructions above. If nothing special is to report, no documentation is needed in the UNL elog.
+
+
+\end{document}
+

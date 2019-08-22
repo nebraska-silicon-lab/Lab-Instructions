@@ -1,0 +1,59 @@
+Testing of HDI for wirebondability
+----------------------------------
+
+Procedure performed according to SOP 209-v0
+
+Date                : ___________
+
+Time start          : _____  end: _____
+
+Operator name       : _______________
+
+Wire batch no.      : ______________    Expiration date: ______________
+
+Wirebonder checked for wire feed [ ] Yes  [ ] No (Report deviations in comments)
+
+Bond parameters used - Set: ___
+
+US time  (ms)   : ___
+B-Force  (cN)   : ___
+US power (digit): ___
+TD steps (µm)   : ___
+
+
+Loop parameters used:
+
+Z-Presign       (%): ___
+LoopH-Fct       (%): ___
+XYLoopHeightFct (%): ___
+Z-Delay         (%): ___
+
+
+List id of parts and pad areas used in table below:
+
+HDI Id.               | ROC pad | Height | Missed | Pull strength                 | Special observations (observed damages, missed bonds etc.)
+                      |         |        |  bonds | average | sigma | min  | max  | 
+----------------------+---------+--------+--------+-------------------------------+-----------------------------------------------------------
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+                      |         |        |        |                               | 
+
+
+Total number of ROC pads bonded and tested: ____
+
+
+Special observations:
+
+
+
+
+Comments:
+
+

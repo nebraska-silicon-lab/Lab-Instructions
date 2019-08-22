@@ -1,0 +1,69 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Visual inspection of BBM}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{202}
+\sopversion{v1}
+\sopabstract{Describes the procedures for visual inspection of BBM. This consists mainly of an inspection by eye and using a microscope. Any deviations from normal appearance will be documented.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This is a regular test in the manufacturing process of pixel modules at UNL.
+
+%------------------------------------------------------------------
+\section{Purpose}
+BBM are a critical part for manufacturing modules. This test is a critical control point to make sure the material we receive meets expectations and to ensure the quality of our modules built out of it.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+%\section{Responsibilities}
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+\item \textbf{Probe station} Jmicro JR-2745, to hold the setup
+\item \textbf{Micropositioner} Jmicro KRN-09S, magnetically held on the probe station, 2 pieces
+\item \textbf{Microscope with camera and LED ring illumination} Microscope at probe station, with camera connected to the computer
+\item \textbf{Gooseneck LED lamps} mounted on microscope stand
+\item \textbf{Computer} Requires ToupeViewX installed (software to grab images from microscope camera) and ImageMagick
+\item \textbf{Vacuum chuck} custom made, used to release modules off the GelPak
+\item \textbf{Vacuum pen} connected to probe station, for manipulating bare modules
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Procedure}
+
+\begin{enumerate}
+    \item Handle BBM only with proper protection: ESD wristband, gloves, face mask.
+    \item Take note of identifying information: wafer number, position inside wafer. Record.
+    \item Remove BBM from GelPack and place on probe station using the vacuum pen. 
+    \item Start up camera software on computer
+    \item \label{stA} Starting on the top corner, zoom in with microscope until the field of vision from left to right is approximately the width of one ROC.  Scan from side to side, noting any points of interest with pictures
+    \item \label{stB} Once you reach the other side, move in the vertical direction to a new area that could not be previously seen, then repeat the side to side motion.
+    \item Repeat steps \ref{stA} and \ref{stB} until the entire BBM has been inspected and documented.  This usually takes three passes from side to side (one along very top, one along middle, one along very bottom)
+    \item Document any findings. Any damage visibile or unusual feature needs to be documented using a picture. Adjust the exposure in a way to capture bright and dark areas at the same time. If needed, adjust lighting conditions. The controller for the LED ring allows to adjust the brightness and switch quadrants on and off. Label files with a clear ereference to the module and the position this image shows.
+\end{enumerate}
+\textbf{Note:} The image capturing software only allows to store bitmap files (\texttt{*.bmp}), which are too large to be stored in the database or the elog. To convert files, use ImageMagick from the command line as follows:
+
+\medskip
+
+\texttt{\$> convert -resize 1024x768 filename.\{bmp,jpg\}}
+
+\medskip
+
+where \texttt{filename.bmp} is the name of the file given when the image got saved in the camera capture software.
+
+%------------------------------------------------------------------
+\section{Documentation}
+Status of the BBM needs to be updated in the Purdue database. Go to ``MAIN MENU''$\rightarrow$``Part List'' and select your BBM. Upload any pictures as needed and add comments as needed. Check the tickmark on ``Inspected'' and hit ``SUBMIT''. 
+
+No need to make an entry in the Elog if nothing special happened.
+\end{document}
+

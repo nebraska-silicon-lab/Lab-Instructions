@@ -1,0 +1,56 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Reworking of modules}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{107}
+\sopversion{v1}
+\sopabstract{Describes the procedures for reqorking of modules not produced properly, e.g.~unable to follow procedures, not pasing tests etc.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This describes special instructions which are not needed normally. New cases may arise and will require a per-case treatment. The instructions found work as a guide for known cases.
+
+%------------------------------------------------------------------
+\section{Purpose}
+The manufacturing procedures may fail and produce modules that do not work properly or interrupt a procedure. This document is for these cases.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+\section{Responsibilities}
+
+\begin{itemize}
+    \item SiLab Team member: Carries out procedures described herein.
+    \item Supervisor: Consults team members to judge cases and define action if not obvious.
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+    \item Equipment as needed, see other SOP.
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Procedure}
+Depending on symptoms and production step the deviation happened, select from the following cases:
+
+\subsection{Unable to bond HV bond}
+\paragraph{Symptom:} During wirebonding (SOP-104), the HV bond couldn't be made. The corrective actions described in there were not successful. Flexing of the HDI may have been observed during bonding.
+\paragraph{Background:} This usually hints to an insufficient glue joint between HDI and sensor. ``Flexing'' in this case means that the HDI moves when the bond tool touches its surface. This can also be observed by watching the module under a microscope and applying pressure using a pair of fine-tipped tweezers.
+
+We observed this in pre-production modules when the BBM were made with too thin ROC (regular thickness is 200\,$\mu$m, a fraction of ROC was thinned down to 150\,$\mu$m by accident). The end-holders on the HDI are designed for the proper thickness and are too tall for too thin ROC. The weights in the glue procedure may not be heavy enough to push down and keep the HDI and sensor in sufficient proximity for the glue to join.
+\paragraph{Action:} Underfill the joint with extra glue. Use a thin tungsten wire and freshly prepared Araldite glue (as described in SOP-103). Dip the wire in glue and pick a small amount of it. Under a microscope, apply the glue inside the visible gap between HDI and sensor in the vicinity of the HV pad. Take care to not contaminate the HV pad on the sensor with glue. When finished, transfer the module to the curing oven (SOP-105) and let it cure for 1~hour at 50$^\circ$C. Then retry bonding.
+
+
+%------------------------------------------------------------------
+\section{Documentation}
+Everything needs to be documented in the Purdue database per the instructions above. Add any action performed as a comment to the affected module. Add supporting imagery if needed. If more elaborate documentation is indicated, use the elog and leave a cross-reference in the database.
+
+\end{document}
+

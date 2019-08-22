@@ -1,0 +1,200 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Module assembly: Wirebonding of modules}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{104}
+\sopversion{v1}
+\sopabstract{Describes the procedures to wirebond modules using the Delvotec 56XX wirebonder. The procedure takes place in the clean room.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This is a regular part in the manufacturing process of pixel modules at UNL.
+
+%------------------------------------------------------------------
+\section{Purpose}
+The wirebonds provide the electrical connections between the ROC and the HDI. Additional wirebonds are required to provide the HV bias potential to the sensor.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+%\section{Responsibilities}
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+    \item Wiebonder: Delvotec 56XX
+    \item Bond head: Delvotec 5630
+    \item Bond wedge: SPT UT45A-W-2030-1.00-C, having a bond flat size of 3\,mils
+    \item Chuck
+    \item Bond wire: aluminium 25\,$\mu$m diameter, Heraeus ALW-29S on 2" spool
+    \item Tweezers for wire handling
+    \item Test coupon
+    \item Optional, in desired amounts: (in case immediate testing is required)
+    \begin{itemize}
+	\item Module carrier
+	\item Flex cable
+    \end{itemize}
+\end{itemize}
+
+\subsection{Bonder setting}
+
+Table \ref{tbl:bondpar} lists the bond settings which have to be used by the operator. Whenever a range is given, the lower value is the normal condition. If the operator experiences problems in bonding to the HDI, the values may be increased within the given range. In any case, the settings need to be documented in the report and deviation from the normal settings need to be justified. Table~\ref{tbl:otherpar} lists general machine settings to be used and table~\ref{tbl:DLCpar} lists the settings for the \emph{deformation limit control} (DLC) option.
+
+\begin{table*}[h]
+\begin{center}
+\caption{Bond parameter settings for bonds from HDI to ROC and HDI to sensor HV pad. Ranges denote allowed parameter boundaries at the discretion of the operator to adjust for quality variations of the HDI.}
+\label{tbl:bondpar}
+
+\bigskip
+
+\begin{tabular}{lc|cc|cc}
+\toprule
+Parameter & Unit & HDI & ROC & HV HDI & HV sensor \\
+\multicolumn{2}{l|}{Bond order} & source & destination & source & destination \\
+    \midrule
+US Time      &  ms    &  25 &  25 &  25 &  25 \\
+B-Force      &  cN    &  30 &  30 &  30 &  30 \\
+US Power     & digit  & 140 & 110 & 140 & 110 \\
+TD Steps     & $\mu$m &  12 &  12 &  12 &  12 \\
+    \midrule
+Z-Presign    & \%     & \multicolumn{2}{|c|}{80} & \multicolumn{2}{|c}{80} \\
+Loop Height  & $\mu$m & \multicolumn{2}{|c|}{0 } & \multicolumn{2}{|c}{0 } \\
+LoopH-Fct    & \%     & \multicolumn{2}{|c|}{85} & \multicolumn{2}{|c}{85} \\
+ClampFlag    & --     & \multicolumn{2}{|c|}{0 } & \multicolumn{2}{|c}{0 } \\
+XY LoopH-Fct & \%     & \multicolumn{2}{|c|}{40} & \multicolumn{2}{|c}{40} \\
+   \bottomrule
+\end{tabular}
+\end{center}
+\end{table*}
+
+\begin{table*}[h]
+\begin{center}
+\caption{Machine parameter settings. Settings marked with an asterisk (*) may vary according to operator's preference.}
+\label{tbl:otherpar}
+
+\bigskip
+
+\begin{tabular}{lcc}
+\toprule
+Parameter          & Unit   & Value \\
+\midrule
+Workheight 1       & $\mu$m & 24182 *\\
+Workheight 2       & $\mu$m & 36293 * \\
+\multicolumn{2}{l}{Use Diagonal Tolerance} & yes \\
+Diagonal Tolerance & $\mu$m & 100 \\
+TD Ramp            & $\mu$m & 300 \\
+Clamp value        & digit  & 650 \\
+Feed               & steps  & 16 \\
+Limiter            & steps  & 16 \\
+Wire Diameter      & $\mu$m & 25 \\
+Production Mode    & --     & 1 \\
+Adjust Mode        & --     & 1 \\
+Bond Mode          & --     & 0 \\
+Monitoring Mode    & --     & 0 \\
+\midrule
+Motor Z max        & $\mu$m & 40700 \\
+\midrule
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table*}
+
+\begin{table*}[h]
+\begin{center}
+\caption{Deformation limit control parameters}
+\label{tbl:DLCpar}
+
+\bigskip
+
+\begin{tabular}{lcc}
+\toprule
+Parameter                & Unit   & Value \\
+\midrule
+Min. deform. source      & $\mu$m &  8 \\
+Max. deform. source      & $\mu$m & 18 \\
+Min. deform. destination & $\mu$m &  3 \\
+Max. deform. destination & $\mu$m & 12 \\
+Scale Y                  & $\mu$m & 30 \\
+Scale X                  & $\mu$m & 30 \\
+    \bottomrule
+\end{tabular}
+\end{center}
+\end{table*}
+
+%------------------------------------------------------------------
+\section{Procedure}
+
+The procedure below describes the steps for bonding one module. The chuck provides space for up to 4 modules, which may be processed in one batch at the discretion of the operator.
+\begin{enumerate}
+    \item Handle bare modules only with proper protection: ESD wristband, gloves, face mask.
+    \item If not already mounted: Mount the bond head following the manual
+    \item Perform a readiness check of the wirebonder:
+    \begin{enumerate}
+        \item Check if bond wire feeds. If in doubt, re-feed wire according to manual.
+        \item If bonding for the first time this day: Make a manual test bond on a coupon. Add this to your report.
+        \item Check if vacuum is present by reading the gauge. If not, perform the following checks: vacuum pump is on (outside cleanroom), valve is open.
+    \end{enumerate}
+    \item Depending on how modules were received, proceed either way:
+    \begin{enumerate}
+        \item Module handed over on chuck from glueing (preferred): Take note of placement of modules for verification.
+        \item Bonding of individual modules: Pick modules from storage and identify them (HDI S/N and UNL batch no.). Place them on a chuck, take note which module is placed in with location.
+    \end{enumerate}
+    \item Check that the parts satisfy the quality criteria by retrieving their information in the Purdue database. To do this, select ``Assembly Status'' and then on the link ``HDI Attached'' within the ``Modules'' table. Look for the modules your are going to wirebond. They should be listed there.
+    \item Visually inspect all modules for any possible issues:
+    \begin{itemize}
+        \item bond pads on HDI and ROC are clean
+        \item HV bond pad on sensor is clean and accessible for the bond head
+    \end{itemize}
+    \item Load the bond program for bonding a module
+    \item Run alignment step.
+    \item Run program. Enter the module Id and the UNL batch Id (\texttt{Nxxxyy}) you are going to bond next. Supervise progress and stop in need, especially when modules are at risk or wirebonds are continuously missing. No stop needed for an occasional miss.
+    \item At the end of the full cycle, check visually if all wirebonds are present. Rebond any missing bonds.
+    \item While still on the bonder, connect the flex cable from the test setup. Run pXar and perform the following tests (no HV needed for this test):
+    \begin{itemize}
+        \item Upon startup, check that the currents are within limits: $I_A\in[0.37,0.39]\,$A, $I_D\in[0.47,0.49]\,$A
+        \item Select the ``Pretest'' tab and run all tests. All modules should be programmable.
+        \item Select the ``PixelAlive'' tab and run all tests. Check the pixel map. All ROC should show some results. If pixels at the edge show low entries, this is due to the missing HV and can be safely disregarded.
+    \end{itemize}
+    Disconnect the cable and proceed.
+    \item Depending on how the production was planned, proceed either way:
+    \begin{itemize}
+        \item Regular case: Encapsulation imminent or foreseen in the next days: Keep modules on chuck and put to intermediate storage
+        \item Special case: Encapsulation postponed, or not required: Remove modules from chuck and place on module carriers. If testing is the next step, attach a flex cable.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Exception handling}
+The bonding procedure may not run through smoothly. The following list instructs how to deal with exceptions:
+\begin{itemize}
+    \item \textbf{Missed wire:} Bonder should normally detect this via the \emph{deformation limit control} and halt the program. Inspect the area. Remove any wire debris with tweezers. Retry bonding. If still unsuccessful, skip wire and proceed. Handle issue later.
+    \item \textbf{Missed wire in HV area:} If wire debris needs to be removed, take extra care to not leave scratches or create any other damage on the sensor. Try bonding in step-mode. Watch the bonding process in the microscope. If flexing of the HDI is observed and step-mode doesn't help, manual underfilling with glue between sensor and HDI may be required. See SOP-107 (Reworking) for further instructions.
+    \item \textbf{Handling of skipped wires:} If immediate re-bonding was unsuccessful, retry bonding in manual mode. If missed bond was on HDI side (most common failure mode), try re-targeting the bond. First try shifting the bond target outwards (i.e.~towards edge of HDI). If this doesn't work, try shifting the bond inwards. In the latter case, make an explicit remark in the database and mark the module on the chuck with a red Post-It bookmark. Reason: Such modules need special handling in the encapsulation step.
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Documentation}
+For any module successfully bonded and passed the tests, select the module in the database and click on ``Update status''. Check the checkbox ``Wirebonded'' and enter your name. In the comments-field, enter the batch number of the wire used.
+
+Only if there are some special observations add a report to the elog:
+\begin{itemize}
+    \item Date, time (start--end) and operator name
+    \item Wirebonder software: version
+    \item Id of parts used
+    \item Batch number and expiration date of wire
+    \item Any special observations, e.g.~damage to parts not already recorded during visual inspection, deviations from normal procedures
+\end{itemize}
+
+
+%------------------------------------------------------------------
+\section{References}
+
+The manual to the wirebonder is available in the cleanroom as a printed copy in a folder and electronically as PDF on the cleanroom computer.
+
+\end{document}
+

@@ -1,0 +1,122 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Shipping of assembled modules}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{106}
+\sopversion{v1}
+\sopabstract{Describes the procedures to ship assembled modules to test centers.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This is a regular part in the manufacturing process of pixel modules at UNL. This process gets triggered whenever assembled and tested modules get available and need to be shipped.
+
+%------------------------------------------------------------------
+\section{Purpose}
+Finished modules need to be shipped to test centers. After that, modules fulfilling all criteria will become integrated in the detector. The shipping step is the last step in UNL's responsibility for manufacturing.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+\section{Responsibilities}
+
+\begin{itemize}
+    \item SiLab Team member: Packs the modules and prepares them for shipment. Prepares the paperwork.
+    \item Business office: Handles shipment with the shipping company.
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+    \item Tabletop impulse sealer with cutter
+    \item Polytube, antistatic, 4\,mil (100\,$\mu$m) thickness, 3\,in (7.5\,cm) wide, translucent
+    \item Silica Gel desiccant bags, 5\,g
+    \item Shipping box, Uline S-1490
+    \item Kapton tape, 1/2\,in (12.7\,mm) wide, thickness 1\,mil (25\,$\mu$m)
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Procedure}
+
+\begin{enumerate}
+    \item Handle modules only inside the cleanroom with proper protection: ESD wristband, gloves, face mask.
+    \item Check each module for shipping as follows:
+    \begin{enumerate}
+        \item Module is mounted on a module carrier.
+        \item Remove the black plastic cover. Check that the module is fixed by the two brackets and the screwss are tightened.
+        \item Check the presence of the module Id sticker.
+        \item The flex cable is inserted properly, i.e.~the connector is fully closed, the cable directs parallel to the module.
+        \item Look this module up in the Purdue database. Check the HDI Id and the module Id on the sticker. Both Id must match what is in the database.
+        \item The module should be in status ``Ready for Shipping''. Special shipments may deviate and require special permission.
+        \item Put the black cover back on, tighten the screws.
+        \item Bend the flex cable to the back of the module carrier. Keep the diameter of the loop roughly 1\,in (2.5\,cm). Secure the end of the cable with a strip of Kapton tape on the back ot the carrier.
+    \end{enumerate}
+    \item If all modules are covered, then it is ok to no longer wear a face mask.
+    \item Connect the sealer to power and set the knop to ``4''.
+    \item Place the roll of Polytubing to the right of the sealer. Now pack the modules by doing the following steps for each module:
+    \begin{enumerate}
+        \item Pull about 10\,in (25\,cm) of Polytubing through the cutter. This is intentionally longer than needed so that the test centers can reuse the tube later on to ship modules again.
+        \item Make a seal by pressing down the lever firmly and wait until the red LED turns off. While still holding down the lever, cut the tubing by sliding the cutter.
+        \item Place a bag of Silicagel on top of the black cover and put it together with the module carrier into the Polytubing.
+        \item Seal the open end of the tube, wait until the red LED turns off. Don't cut.
+        \item Inspect both seals. They should be complete and tight. If some of the foil got folded, make another seal in a suitable distance to the bad seal or consider to make a new attempt from scratch.
+    \end{enumerate}
+Note: It is ok to recycle Polytubing from previous shipments as long as the length is ok and the tubing looks intact. Do not recycle Silicagel bags, use fresh ones.
+    \item The following steps should take place outside the cleanroom. Do not handle cardboard inside the cleanroom. Sealed modules are considered protected and can be handled outside the cleanroom.
+    \item Place the modules in the box. During pre-production it is acceptable to use bubble wrap to pack the bagged modules and ship them using standard boxes. For production modules, only the provided boxes shall be used.
+    \item Prepare the form for the business office. Information needed:
+    \begin{enumerate}
+        \item Dimensions need to be taken from the box.
+        \item The weight of one complete module handle is about 7\,oz (200\,g).
+        \item One rubber-foam padded shipping box is about 9.5\,oz (270\,g). The dimensions are 14\,$\times$\,8\,$\times$\,2.75\,in
+        \item Service us usually ``FedEx Overnight''
+        \item Insurance value per module is \$100.
+        \item Addresses are given below.
+        \item Cost center will be provided by a responsible person.
+    \end{enumerate}
+    Templates for each standard recipient are stored on the TWiki.
+    \item Bring the box to the business office. 
+    \item Update the status for every module to ``Shipped'' in the Purdue database.
+\end{enumerate}
+
+\subsection{Shipping addresses}
+The regular destination for finished modules is Fermilab, unless instructed otherwise.
+
+{\footnotesize
+\begin{tabular}{llcc}
+Recipient & Address & Phone & Email \\
+              \hline
+Fermilab & Fermilab & 630-200-8054 & \url{petra@fnal.gov} \\
+    & Shipping \& Receiving \\
+    & Att: MERKEL, Petra (ID 12818N) \\
+    & SIDET LAB A \\
+    & Wilson \& Kirk Roads \\
+    & Batavia, IL 60510\\
+              \hline
+KU  & University of Kansas & 626-200-7559 & \url{robert.stringer@ku.edu} \\
+    & Department of Physics and Astronomy\\
+    & Att: Robert Stringer \\
+    & 1251 Wescoe Hall Drive \\
+    & 1082 Malott Hall \\
+    & Lawrence, KS 66045 \\
+              \hline
+Purdue & Purdue University & 765-494-5390 & \url{hintonn@purdue.edu} \\
+    & Physics Department \\
+    & Att: Nick Hinton \\
+    & 525 Northwestern Avenue \\
+    & West Lafayette, IN 47907 \\
+              \hline
+\end{tabular}
+}
+
+%------------------------------------------------------------------
+\section{Documentation}
+Everything needs to be documented in the Purdue database per the instructions above. If nothing special is to report, the only thing to report in the elog is to store the FedEx tracking number. There is no need to keep a copy of the shipping form as it will be kept on file in the business office.
+
+\end{document}
+

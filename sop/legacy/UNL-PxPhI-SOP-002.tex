@@ -1,0 +1,68 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Backup and recovery}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{002}
+\sopversion{v1}
+\sopabstract{Describes how parts used and produced during manufacturing are stored.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This covers all computer systems involved in manufacturing modules.
+
+%------------------------------------------------------------------
+\section{Purpose}
+Computer systems are used to control manufacturing processes, perform tests, and to store critical results. This document describes how the systems get backuped.
+
+%------------------------------------------------------------------
+%>\section{Definitions}
+
+%------------------------------------------------------------------
+\section{Responsibilities}
+All SiLab team members are required to obey these rules.
+
+%------------------------------------------------------------------
+\section{Principles}
+
+\subsection{Gantry}
+The gantry code comprises of proprietary software and custom code in LabView, VisualBasic, and C++. All components are necessary to operate the gantry.
+\begin{itemize}
+    \item \textbf{Gantry software.} In case of disaster recovery, the following software needs to be reinstalled: Aerotec Motion Composer, MatLab and LabView 2011 (or newer).
+    \item \textbf{LabView code.} The code is stored in a \texttt{git} repository, regularly replicated to \url{https://git.unl.edu/jmonroy2/glueing}. This includes the pattern recognition part, written in-house in C++. Recovery requires a clone of that repository plus configuration work.
+    \item \textbf{Data.} Logfiles are kept locally, no backup foreseen so far.
+\end{itemize}
+
+\subsection{Wirebonder}
+The wirebonder is operated by a PC running Windows XP embedded into the machine. The software is unavailable on more recent versions of Windows. For security reasons, no network access is allowed. All backup and transfer of user data has to make use of a USB thumb drive.
+\begin{itemize}
+    \item \textbf{Bond programs.} These programs are custom to accommodate our modules. A backup gets stored on the USB thumbdrive that is placed by the bonder.
+    \item \textbf{Machine configuration.} This cannot be stored in a better way than as screenshots. They get stored on the USB thumbdrive as well.
+    \item \textbf{Logfiles.} Logfiles are kept locally, no backup foreseen so far.
+    \item \textbf{Data.} Mostly test results from pull tests. Need to be transferred using a USB thumbdrive.
+\end{itemize}
+
+\subsection{Test stands}
+Test stands operate software developed by the CMS pixel community (\texttt{pXar}, \texttt{ElCommandante}, \texttt{psi46test}) using DTB and in one case control the cold box.
+\begin{itemize}
+    \item \textbf{Source code.} All source code is available for download on \texttt{https://github.com/psi46} and can be compiled according to instructions available at \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/Psi46}.
+    \item \textbf{Configuration.} Configurations are mandated by Fermilab and maintained in the relevant github repositories (see TWiki).
+    \item \textbf{Logfiles.} Logfiles are kept locally, no backup foreseen so far.
+    \item \textbf{Data.} Some data gets stored on the Purdue database (see SOP~206), the full test gets stored locally. No backup foreseen as this data is regarded as intermediate and the final calibration will be done at Fermilab.
+\end{itemize}
+
+\subsection{UNLHEP electronic logbook}
+The elog is an instance of the electronic logbook software available at \url{https://midas.psi.ch/elog/}. Our installation is hosted on the UNL Tier3 datacenter and its data is included in the regular backup.
+% Gerhan Attbury at T2/T3
+
+\subsection{Purdue database}
+This is used to store aggregated results and to manage workflows. The database is hosted and maintained by our colleagues at Purdue. It is accessed through a web interface. Backup and recovery is a responsibility of Purdue.
+
+\subsection{Fermilab database}
+At the time of writing, this database is not yet productive. Hosting, maintenance, backup and recovery are responsibilities of our colleagues at Fermilab.
+
+\end{document}
+

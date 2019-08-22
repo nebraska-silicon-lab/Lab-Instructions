@@ -1,0 +1,69 @@
+\documentclass[12pt]{unlsilabsop}
+\title{Dry air supply}
+\date{August 6, 2015}
+\author{Frank Meier Aeschbacher}
+\approved{Frank Meier Aeschbacher}
+\sopid{306}
+\sopversion{v1}
+\sopabstract{This document describes the regular maintenance for the dry air supply.}
+\begin{document}
+
+\maketitle
+
+%------------------------------------------------------------------
+\section{Scope}
+This document describes the maintenance of the dry air supply. It affects all equipment using dry air (storage cabinet, test stand).
+
+%------------------------------------------------------------------
+\section{Purpose}
+The dry air supply is important to protect intermediate parts and manufactured modules. This SOP helps to ensure the quality of the dry air.
+
+%------------------------------------------------------------------
+%\section{Definitions}
+
+%------------------------------------------------------------------
+\section{Responsibilities}
+Every person handling or testing modules is responsible to maintain the dry air supply. While a minimum schedule for maintenance activities is outlined in this document, any person is allowed to trigger out-of-cycle maintenance if needed to maintain working conditions.
+
+%------------------------------------------------------------------
+\section{Equipment}
+
+\begin{itemize}
+    \item Titus dryer, model TMDM 1100A
+    \item Pressure reducing valve, set to 60\,psi
+    \item Data logger, Measurement Computing USB-502-LCD, set to store one data point per minute
+\end{itemize}
+
+% Consider adding images of key equipment if it helps
+
+%------------------------------------------------------------------
+\section{Procedure}
+
+% Mention to record certain observations if this is needed
+\subsection{Weekly maintenance}
+\begin{enumerate}
+    \item Check setting of pressure reducing walve. Needs to be set to 60\,psi.
+    \item Check airflow. Two options:
+    \begin{enumerate}
+        \item Inside clearoom near the dry storage cabinat, you should hear the permanent air flow
+        \item When operating the cold box, the dry air flow get activated. The flow meters will indicate a flow
+    \end{enumerate}
+    \item Check the data from the data logger.
+    \begin{enumerate}
+        \item Remove the logger from the dry air cabinet and read it out on a computer.
+        \item The humidity reading should be below 5\%, except for the moments when the logger is outside (usually when it needs to be removed to read out). Upload the data to the Elog.
+    \end{enumerate}
+\end{enumerate}
+
+%------------------------------------------------------------------
+\section{Documentation}
+The following information needs to be recorded in the report for the UNL logbook:
+\begin{itemize}
+    \item Date, time (start--end) and operator name.
+    \item Any special observations, e.g.~any deviation from expectation.
+    \item Add the datafile from the data logger.
+    \item Any action taken.
+\end{itemize}
+
+\end{document}
+
