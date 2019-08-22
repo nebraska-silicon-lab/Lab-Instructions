@@ -1,14 +1,8 @@
 \documentclass[12pt]{unlsilabsop}
 \title{Electrical acceptance test of assembled modules}
-<<<<<<< HEAD
-\date{August 6, 2015}
-\author{Frank Meier Aeschbacher, Joaquin Siado}
-\approved{Frank Meier Aeschbacher}
-=======
 \date{February 5, 2016}
 \author{Joaquin Siado}
 \approved{Rachel Bartek}
->>>>>>> 99dbe97747d45ae55b3e8cd136990c0a8ed68e10
 \sopid{206}
 \sopversion{v1}
 \sopabstract{Describes the procedures for the electrical test of final modules. This consists of taking the IV curve and running a so-called \emph{full test} with the standardized test software. Any deviations from normal appearance will be documented.}
@@ -39,11 +33,7 @@ The electrical acceptance test of final modules is a critical step in manufactur
 \item \textbf{DTB with adapter cards} 4 each, adapter cards connected via SCSI ribbon cable. Power brick connected. All 4 connected to the computer via separate USB cables. Do not use a USB hub unless you are sure it works. 4 HV cables connected to the Keithly power supply. Power up a DTB only if it will be used.
 \item \textbf{Computer} A Linux or Mac~OS~X based computer with pXar, ElCommandante and MoReWeb installed.
 \item \textbf{Chiller} Model RC045, Serie J03
-<<<<<<< HEAD
 \item \textbf{Dry air supply} Titus Dryer model TMDM1100A, inlet pressure set to 60\,psi.
-=======
-\item \textbf{Dry air supply} Set to 60 PSI
->>>>>>> 99dbe97747d45ae55b3e8cd136990c0a8ed68e10
 \item \textbf{HV power supply} Keithly model 2410, connected to the same computer through a USB to RS232 adapter
 \item \textbf{Binder clips} 15\,mm wide, inside insulated with Kapton tape
 \end{itemize}
@@ -52,15 +42,9 @@ The electrical acceptance test of final modules is a critical step in manufactur
 \section{Procedure}
 
 \begin{enumerate}
-<<<<<<< HEAD
     \item Handle modules only with proper protection: ESD wristband, gloves, face mask.
     \item A protective Kapton-insulated binder clip has to be attached to the dangling end of the flex cable whenever modules are stored or handled when no ESD protection can be worn (e.g.~when transferring modules on closed carriers between cleanroom and test stand).
     \item Place the modules on the cold box. For this, do:
-=======
-    \item Handle modules only with proper protection: ESD wristband.
-    \item Check encapsulated drawer in the dry air cabinet for any module that need to be tested.
-    \item Take up to four and place them in the cold box. For this, do:
->>>>>>> 99dbe97747d45ae55b3e8cd136990c0a8ed68e10
     \begin{itemize}
         \item Open the lid. The sample area needs to be clean, no dust or dirt visible on cold plate.
         \item Place the modules using the positioning pins.
@@ -71,21 +55,13 @@ The electrical acceptance test of final modules is a critical step in manufactur
     \item Power on the needed DTBs.
     \item Go to FPIXUtils directory and do.
     \begin{itemize}
-<<<<<<< HEAD
 		\item Generate the configuration files (if already have them move to next step)\\
 		Go to data subfolder and do:\\
-<<<<<<< HEAD
 		\texttt{\$\$ cd pxar/data}\\
 		\texttt{\$\$ ../main/mkConfig -d defaultparameters -t tbmtype -r roctype -m -f -p \textsc{\char13}s/hubId 31/hubId 15 	\textsc{\char13}/}
 		\item Go to \texttt{elComandante/config} folder and open elComandante.ini and elComandante.conf files. The first file contains information about the modules that are going to be tested and which DTB are going to be used. Set the module name and its corresponding DTB. Also make sure ``keithley'' and ``coldbox'' are set to ``True'' and ``lowvoltage'' and ``xray'' are set to ``false''. At the end of the file include a test description according to the test you are about to do. Finally, indicated which tests are going to be done. For a complete full qualification of the module the tests are: \texttt{IV\at 17,Pretest{\at}17$>$\{Fulltest\at 17\}}\\
 
 		The second file has information about paths and ports. Set the jumo client and the Keithley client to the correct ports, ttyUSB0 and ttyUSB1, watch for any changes. Make sure each DTB has the correct name and specify the path for the configuration files(as set above). Finally check the directory where the pxar executable is, normally it is at \texttt{pxar/bin/pXar}.
-=======
-		\$\$ $cd pxar/data$
-		\$\$ ../main/mkConfig -d defaultparameters -t tbmtype -r roctype -m -f -p \textsc{\char13}s/hubId 31/hubId 15 	\textsc{\char13}/
-		\item Go to $elComandante/config$ folder and open elComandante.ini and elComandante.conf files. The first file contains information about the modules that are going to be tested and which DTB are going to be used. Set the module name with its corresponding DTB. Also make sure keithley and coldbox are set to True and lowvoltage and xray are set to false. At the end of the file include a test description according to the test you are about to do. Finally, indicated which tests are going to be done. For a complete full qualification of the module the tests are: IV\at 17,Pretest{\at}17$>$\{Fulltest\at 17\}\\
-		The second file has information about paths and ports. Set the jumo client and the Keithley client to the correct ports, ttyUSB0 and ttyUSB1, watch for any changes (Normally a port's name changes every time you plug a different device in a port). Make sure each DTB has the correct name and specify the path for the configuration files(as set above). Finally check the directory where the pxar executable is, normally it is at pxar/bin/pXar.
->>>>>>> ace37cc4fa44662863698312422c3944b6db60b2
 		\item Run elComandante
 		\begin{itemize}
 			\item \texttt{\$\$ cd ../elComandante}
@@ -111,7 +87,6 @@ The electrical acceptance test of final modules is a critical step in manufactur
     \begin{itemize}
     		\item A jpg or png file with the pixel alive result and a second one with the Bump Bonding results.
     		\item Add any other information you considered relevant.
-=======
     		\item {$\$ $\it{python startShift.py}}
     		\item Enter your information and modules information.
     		\item {$\$ $\it{python prepareTest.py Pretest False}}
@@ -121,7 +96,6 @@ The electrical acceptance test of final modules is a critical step in manufactur
     		\item When flushing part is over, start the chiller and set it to 20$^\circ$C. Water flow set to 3\,gal/min.
     		\item Go to elcomandante subfolder and run {$\$ $\it{python el\_comandante.py}}
     		\item When test is finished turn off the chiller and run {$\$ $\it{python checkTest.py FPIXTest}}
->>>>>>> 99dbe97747d45ae55b3e8cd136990c0a8ed68e10
     \end{itemize}
     \item Removing the modules
    \begin{itemize}
