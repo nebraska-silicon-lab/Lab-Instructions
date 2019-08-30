@@ -48,7 +48,8 @@ EHS helps us do proper chemicals disposal.
 
 Any chemical brought to the lab beyond simple household cleaners, or
 cleaning alcohol must be accompanied by a Safety Data Sheet (SDS). We
-have SDS data sheets stored in a cabinet next to the First Aid Kit.
+have SDS data sheets stored in a cabinet next to the First Aid Kit. Digital
+copies of the SDS are available [here](https://github.com/nebraska-silicon-lab/Lab-Instructions/tree/master/sds).
 
 **Electrical:** High voltage power supplies can kill you, handle them with caution and
 receive adequate instruction from experienced group members. Low voltage
