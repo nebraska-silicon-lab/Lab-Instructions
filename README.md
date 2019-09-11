@@ -43,7 +43,7 @@ This repository contains information on working in the UNL Silicon Lab.
     > Step 3: **Connect to Vidyo Room** To connect to a VIDYO room you need to first call into a VIDYO hub by typing the correct IP address into the polycom. You should see a field to enter a number on the LCD screen. Usually, this number is leftover from the week before, but if not, the numbers can be found [here](http://information-technology.web.cern.ch/services/fe/howto/users-use-h323sip-client-connect-vidyo-meeting). Generally, either the CERN or Internet2 hubs work, but sometimes one of them goes down. If this happens, try typing in the other IP address to connect to the other hub.
     >
     > After connecting, you will be prompted to enter a room extension. For a normal UNLHEP meeting, this is 109250860. For other meetings, this can be found in the meeting's indico page with the other VIDYO information.
-    
+    >
     > Step 4: **Login to PC** The windows login screen should be displayed on the projector. Login with the same credentials you use for Canvas.
     >
     > Step 5: **Open indico page** Open firefox and navigate to: https://indico.cern.ch/category/2004/. Select the appropriate entry and check for any contributions. It's better to have them downloaded before the meeting starts.
