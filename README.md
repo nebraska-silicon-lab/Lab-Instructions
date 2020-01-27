@@ -16,7 +16,7 @@ This repository contains information on working in the UNL Silicon Lab.
   
   - How do I purchase things for the lab?
   
-  > You must fill out and submit a [requisition form](https://www.unl.edu/physics/docs/Requisition2014.pdf). You can get the appropriate cost object from supervising faculty. They must also review and approve all requisitions before submission. After submitting a requisition, **add a copy of a requisition to the [Phase 2 Requisitions repository](https://github.com/nebraska-silicon-lab/Phase_II_Requisitions)**.
+  > You must fill out and submit a [requisition form](https://www.unl.edu/physics/docs/Requisition2014.pdf). You can get the appropriate cost object from supervising faculty. They must also review and approve all requisitions before submission. After submitting a requisition, **add a copy of a requisition to the [Phase 2 Requisitions repository](https://github.com/nebraska-silicon-lab/Phase_II_Requisitions)**. In the email to purchasing, you must also request to receive tracking information on the order if you want to have it. Purchasing does not share that info as a standard procedure.
   >
   > When your order arrives, you should receive an email letting you know. Retrieve it from the package room which you can access through the buisiness office. Then unpack and inspect the package. If everything looks ok, sign the packaging slip and return it to the buisiness office. Avoid accumulating an excess of packaging material in the lab. There is a cardboard recycling dumpster on the south side of the building. Finally, be sure to submit an elog to record that the item has been received.
 
