@@ -14,7 +14,7 @@ This repository contains information on working in the UNL Silicon Lab.
   
   > The elog is hosted on the UNL Tier 3 server and can be accessed at https://t3.unl.edu:8175/Phase_II/. The elog contains a self-signed security certificate so you will likely need to grant a security exception in your browser. If you need an account on the elog, contact Caleb Fangmeier to get one.
   
-  - Where can I find the weeksly lab meeting notes?
+  - Where can I find the weekly lab meeting notes?
   
   > Here: https://drive.google.com/drive/folders/10N9E5t9wVPjJgN6DORFNcZdyZuDiySfp
   
