@@ -2,6 +2,8 @@
 
 This repository contains information on working in the UNL Silicon Lab.
 
+**Note that until further notice, the [COVID-19 SOP](https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/master/COVID-19%20Procedures.md) must be followed by all persons in the lab**
+
 ## Content
 
   - `sds`: Safety Data Sheets for any chemicals used in the lab
