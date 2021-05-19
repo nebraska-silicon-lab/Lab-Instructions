@@ -14,7 +14,9 @@ This repository contains information on working in the UNL Silicon Lab.
 
   - How do I access the elog?
   
-  > The elog is hosted on the UNL Tier 3 server and can be accessed at https://t3.unl.edu:8175/Phase_II/. The elog contains a self-signed security certificate so you will likely need to grant a security exception in your browser. If you need an account on the elog, contact Caleb Fangmeier to get one.
+  > The elog is hosted on the UNL Tier 3 server and can be accessed at https://t3.unl.edu:8175/Phase_II/. The elog contains a self-signed security certificate so you will likely need to grant a security exception in your browser. If you need an account on the elog, contact Caleb Fangmeier to get one. 
+  > 
+  > **Note: the ELOG is currently in the process of being decomissioned. Until a more permanent solution is found, information for the group can be shared using the mailing list detector-lab@listserv.unl.edu**
   
   - Where can I find the weekly lab meeting notes?
   
@@ -37,25 +39,3 @@ This repository contains information on working in the UNL Silicon Lab.
   - How do I empty the solvent contaminated rags bucket in the clean room?
   
   > Call the number on the top of the bucket to have EHS come empty it. The bucket may temporarily need to be placed out of the clean room so EHS can access it.
-  
-  - How do I setup a VIDYO  connection for the UNLHEP weekly meeting?
-  
-  >  Step 0: (optional) power cycle the system by toggling the large power switch near the top of the media hardware rack. If you do this, you will need to boot up the PC in the rack (it's the box with 4 D-Sub connectors on the front and the `jhadmin` label)
-  >
-  >  Step 1: **Turn on Projector** On the touch control, select "Displays", and hit the red "ON" button under "Projector Controls". Make sure that the "Windows" input is selected.
-  >
-  > Step 2: **Turn on LCD screen** Still under "Displays", select the "ON" button under "LCD Controls"
-  >
-  > Step 3: **Connect to Vidyo Room** To connect to a VIDYO room you need to first call into a VIDYO hub by typing the correct IP address into the polycom. You should see a field to enter a number on the LCD screen. Usually, this number is leftover from the week before, but if not, the numbers can be found [here](http://information-technology.web.cern.ch/services/fe/howto/users-use-h323sip-client-connect-vidyo-meeting). Generally, either the CERN or Internet2 hubs work, but sometimes one of them goes down. If this happens, try typing in the other IP address to connect to the other hub.
-  >
-  > After connecting, you will be prompted to enter a room extension. For a normal UNLHEP meeting, this is 109250860. For other meetings, this can be found in the meeting's indico page with the other VIDYO information.
-  >
-  > Step 4: **Login to PC** The windows login screen should be displayed on the projector. Login with the same credentials you use for Canvas.
-  >
-  > Step 5: **Open indico page** Open firefox and navigate to: https://indico.cern.ch/category/2004/. Select the appropriate entry and check for any contributions. It's better to have them downloaded before the meeting starts.
-  >
-  > Step 6: **Shut down system** At the end of the meeting, be sure to log out of the PC, hangup the VIDYO call, turn off the projector, and turn off the LCD screen.
-  > 
-  > **Other Notes**: Sometimes someone (likely a bot) will attempt to call in during a meeting. You can dismiss this by selecting the option to dismiss the call via the touch screen.
-  > 
-  > If you have any problems not covered in these instructions, contact either Caleb Fangmeier or Brian Farleigh for assisstance.
