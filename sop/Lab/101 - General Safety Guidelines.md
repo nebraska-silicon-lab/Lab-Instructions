@@ -1,4 +1,4 @@
-**Safety Operating Procedures, HEP lab JH 174**
+# Lab:101 - General Safety Guidelines
 
 **Work Environment** If at all possible, **don't work in the laboratory
 alone.** If you do work in the laboratory alone, prop the laboratory
