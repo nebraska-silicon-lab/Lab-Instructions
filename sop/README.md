@@ -2,4 +2,7 @@
 
 ## Content
 
-  - `legacy`: SOP documents from the Phase I FPIX production run
+  - `ETL`: SOP documents for ETL activities
+  - `Lab`: SOP documents for general work in the lab
+  - `MilliQan`: SOP documents for MilliQan activities
+  - `TFPX`: SOP documents for TFPX activities
