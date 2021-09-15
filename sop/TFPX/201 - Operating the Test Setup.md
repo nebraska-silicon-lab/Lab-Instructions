@@ -8,7 +8,8 @@ Last Edited: September 15, 2021
 
 ## Additional Information
 
-  - 
+  - [SCC Configuration](./201_materials/RD53A_SCC_Configuration.pdf)
+  - [SCC Schematics](./201_materials/RD53A_SCC_Rev1.0.pdf)
 
 ## Required Materials
 
