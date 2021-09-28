@@ -29,8 +29,12 @@ Users must complete a short training program with either Caleb or another traine
   2. Plug in the SHV cable to the large coaxial plug, the SMA cable to the output labeled `OUT A` and the ribbon cable to the matching header as shown below ![]().
   3. Carefully place the assembly laying down inside the dark box. Close the lid.
 
+<img src="https://user-images.githubusercontent.com/2569566/135171865-2d14126b-da74-4f03-a60b-f868b611ea69.png" width="400px">
+<img src="https://user-images.githubusercontent.com/2569566/135174236-4a968931-3ac7-469f-9e49-7e0b33d49a7e.jpg" width="400px">
+
 
 ### Powering up the system
+![PXL_20210928_195956336](https://user-images.githubusercontent.com/2569566/135174308-ae85a26f-3327-4b2a-a24e-4e6dc872343e.jpg)
 
   1. If the 5V supplies are off, turn them on with the black toggle-switches on the bottom of their front panels.
   2. Enable the output of PS 1, wait for a couple seconds and then enable PS 2. Check that they both read 5V +- 2mV. If they don't, turn them off and use the top dial to adjust them to 5V.
