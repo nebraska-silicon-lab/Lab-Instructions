@@ -1,6 +1,8 @@
 # Lab:190 - COVID-19 Procedures
 
-Last Updated: Sept. 9, 2020
+Last Updated: Sept. 28, 2021
+
+### **All lab workers must acknowledge that they have read and understand this SOP by filling out the form [here](https://docs.google.com/forms/d/e/1FAIpQLSeE4SkGVjgMc4MU5w8YfJallbkk7M9qL2hIbUzYeaktcB2k8Q/viewform?usp=sf_link)**
 
   - First and foremost, workers in the Detector Lab must comply with current university guidance with respect to COVID-19 protocols. Further information on this can be found [here](https://covid19.unl.edu/fall-2021-campus).
 
