@@ -26,7 +26,7 @@ Last Edited: January 24, 2023
 
 ## Procedure
 #### Encapsulant Preparation Procedure
-
+##### Time needed to complete this prodcedure is 30mins to 1hr
  1. First, wear the gloves and then place the 2-Part Cartidge barrale on a stand to hold. 
  2.  Using a 1cc syring fill up the thin part of the cartidge by the sylgard curing agent and seal it up by the piston
  3.  Using a 10cc syringe or using an ice-cream stick fill up the thick parth of the cartidge and seal it up by the piston
