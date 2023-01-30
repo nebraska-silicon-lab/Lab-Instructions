@@ -35,7 +35,7 @@ Last Edited: January 24, 2023
 5. Plug the static spiral mixer to the cartidge and the fill up the 5cc syringe barrel by pressing the gun
 6. Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
 7. Plug the tip to the syringe, attach with the barrale adapter and place it on the dispensing robot stand
-
+ 
 
 ### Step 1
 
