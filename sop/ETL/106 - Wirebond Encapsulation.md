@@ -43,23 +43,26 @@ Nordoson Dispense Motion
 ### Step 2
 #### Encapsulation Procedure
 ### Step 1
-  Plug the static spiral mixer to the cartidge and the fill up the 5cc syringe barrel by pressing the gun
-  Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
-  Rplace tip cap with a precision dispanse tip from the syringe barrel and attach it to the adapter assembly
-  
-  ### Step 2: Calibration
+
+ - 2-part encapsulant is mixed using a spiral mixer, poured into a 5cc syringe by pressing the dispenser gun and removed the air bubbles in a centrifuge
+ - Tip cap from the syring is replaced with a precision dispanse tip
+ - The syring is attached to the adapter assembly and mounted on the robot
+ - Needle is purged using "setup system" tab in the disperser motion software
+ 
+ ### Step 2: Calibration
   
   1. Hit the "Needle Z Detect" button to calibrate the z height. 
   2. Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
   
-  ### Step 3: Encapsulation
+  ### Step 3: Encapsulation Program
   
   ## Timming
    
   #### Mix, fill syringe, removing bubbles, mount syringe on robot & purge needle ~ 10 mins
   #### Calibration using Needle tip detect, Needle XY adjust ~ 5 mins
   #### Encapsulation timming with two passes using 30GA precsion tip (pink) where pressure is 100 psi and speed is 0.1 mm/s
-  - 1 pass ~ 3.5 mins and 2 passes ~ 7 mins on a pad. Total time for four pads is 30 mins
+  - 1 pass ~ 3.5 mins and 2 passes ~ 7 mins on a bondpad. Total time for four bondpads is 30 mins
   #### Encapsulant Curing time
-  - 24hrs to cure the sylgard 186 at room temp
+  - 8hrs to cure the sylgard 186 at room temp
   - In a oven it takes 1.5 hrs at 50˚C  
+  #### Useful working life of Sylgard 186 from time of mix is 90mins
