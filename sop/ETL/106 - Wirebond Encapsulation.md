@@ -61,5 +61,5 @@ Nordoson Dispense Motion
   #### Encapsulation timming with two passes using 30GA precsion tip (pink) where pressure is 100 psi and speed is 0.1 mm/s
   - 1 pass ~ 3.5 mins and 2 passes ~ 7 mins on a pad. Total time for four pads is 30 mins
   #### Encapsulant Curing time
-  - 8 hrs to 24hrs to cure the sylgard 186 at room temp
+  - 24hrs to cure the sylgard 186 at room temp
   - In a oven it takes 1.5 hrs at 50˚C  
