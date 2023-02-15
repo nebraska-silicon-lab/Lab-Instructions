@@ -65,17 +65,19 @@ Users must complete a short training program with either Caleb or another traine
   - Hit the "Needle Z Detect" button to calibrate the z height. 
   - Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
   
-  ### Step 5: Despensing (Potting)
+  ### Step 5: Placing the Module Chucks on the Robot
   
-  ### Step 6: Removing Syring from Holder
+  ### Step 7: Setting and Running the Program (Potting)
   
-  ### Step 7: Saving and Ending the Program
+  ### Step 8: Removing Syring from the Holder 
   
-  ### Step 8: Creating and Publishing Report
+  ### Step 9: Saving and Ending the Program
   
-  ### Step 9: Transfering Plates to the Curing Vacuum Oven
+  ### Step 10: Creating and Publishing Report
   
-  ### Step 10: Transfering Modules to the Carrier
+  ### Step 11: Transfering Plates to the Curing Vacuum Oven
+  
+  ### Step 12: Transfering Modules to the Carrier
   
   ## Results 
   
@@ -111,10 +113,20 @@ Users must complete a short training program with either Caleb or another traine
   
   - Curing time at room temperuture ~ 8 hrs
   - Curing time in oven at 60˚C ~ 30 mins and at 50˚C ~ ?
-  
 
-  ## Height Sensor Mounting and Programming
+  ## Line Dispanse Programming
   
-  ## Example Scripts
+   - Start Program
+   - Z clearence
+   - Line Dispense Setup  
+   - Measuring the Z-Height using Height Sensor
+   - Detecting the X, Y & Z cordinates of the Bond Pads and Updating the Program
+   - Backtrack Setup
+   - Repate the process for other bond pads
+   - End Program
+
+  ### Example Scripts
+  
+  ## Height Sensor Mounting and Programming
   
   ## Dispenser Manuals and Documentations
