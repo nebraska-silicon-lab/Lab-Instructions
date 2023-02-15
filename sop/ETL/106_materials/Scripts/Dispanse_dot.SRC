@@ -1,0 +1,152 @@
+Z Clearance Setup,10,1
+//Dispense Dot Setup,60,0.1,0
+//Dispense End Setup,100,5,5
+//Find Mark,136.05,77.055,54.388,19
+Line dispense Setup,0.5,0,0,1,0,1
+Height Sensor,58.669,97.93,0
+//Output,8,0
+Line Speed,0.1
+Line Start,99.45,79.56,65.5
+Line End,99.45,100.5,65.5
+//Backtrack Setup,0.5,1.5,5,2
+//Find Mark,135.803,118.251,54.388,20
+//Output,8,1
+//Height Sensor,51.943,119.06,53
+//Output,8,0
+//Dispense Dot,129.86,103.58,66
+End Program
+
+[option]
+isGray=0
+colorR=0
+hasDrop=0
+gap_spline=1
+DoffsetX=0
+DoffsetY=0
+isInch=0
+fastMatch=0
+alarmEnable=0
+alarmX=0
+alarmY=0
+smallZ=0
+alarmZ=0
+ringMark=0
+lightDefault=0
+lightOffset=0
+distantScaleX=0
+distantScaleY=0
+weightGlue=0
+weightAmount=0
+weightSecond=0
+weightVoltage=0
+weighAirBig=0
+colorG=0
+weightX=0
+weightY=0
+weightZ=0
+colorB=0
+matchPixel=1
+skip=3
+screenOffset=0
+evenOffset=0
+LightHighX=0
+LightHighY=0
+LightHighZ=0
+suckLocateX=0
+suckLocateY=0
+suckLocateZ=0
+LightDistance=0
+homeBeforeRun=0
+music=0
+detectLength=10
+thick=0
+baseSubtract=0
+pinTouch=64.462
+highSubtract=3.202998
+LaserLocateX=0
+LaserLocateY=0
+LaserLocateZ=0
+absoluteZ=0
+tipOffsetX=0
+tipOffsetY=0
+tipOffsetZ=0
+gluePutTime=0
+CCDPixelScaleX=41.00542
+CCDPixelScaleY=38.29509
+CCDPixelScaleX1=100
+CCDPixelScaleY1=100
+CCDFocusHeight=0
+XYMoveSpeed=50
+ZMoveSpeed=10
+UMoveSpeed=90
+tipHomeX=0
+tipHomeY=0
+tipHomeZ=0
+tipHomeU=0
+tipAdjustX=0.513
+tipAdjustY=123.083
+tipAdjustZ=61.5
+GlueInterval=10
+outGlueTime=1
+outGlueEnable=0
+MaximumAmount=0
+NowCountWarn=0
+GlueTimeWarn=0
+UVwait=0
+move_acc=200
+vector_acc=200
+LaserH=0
+LaserL=0
+LaserLimitEnable=0
+LaserProfileXStep=200
+LaserProfileYMax=5
+LaserProfileYMin=-5
+LaserProfileMax=0
+LaserProfileMin=0
+LaserProfileSkipErr=0
+LaserProfileMaxValue=5
+LaserProfileMinValue=-5
+LaserProfileAction=0
+score=0.65
+lensX=39.938
+lensY=163.434
+lensZ=60.625
+glueScore=0.1
+findGlueTime=0.2
+tailGlueTime=0.2
+offsetMark=18
+circle1=0
+circle2=0
+hs_x=69.602
+hs_y=108.14
+hs_z=0
+hs_initialz=10.071
+tipX2=62.337
+tipY2=93.075
+tipZ2=61.96
+ccdX2=146.236
+ccdY2=91.187
+ccdZ2=54.208
+tipX=0
+tipY=166.613
+tipZ=67.665
+cameraX=0
+cameraY=0
+cameraZ=0
+offsetGlueOut=0
+focus=58.185
+findDelay=0.2
+SearchRangeOrgX0=0
+SearchRangeOrgY0=0
+SearchRangeWidth0=639
+SearchRangeHeight0=479
+SearchRangeOrgX1=0
+SearchRangeOrgY1=0
+SearchRangeWidth1=0
+SearchRangeHeight1=0
+detail=0
+hs_in=8
+hs_out=8
+hs_limit=20
+hs_speed=1
+mminch=0
