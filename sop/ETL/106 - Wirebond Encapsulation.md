@@ -1,13 +1,16 @@
 # ETL:106 - Wirebond Encapsulation
 
-Author: Jahid Hossain
+Author: **Jahid Hossain**, Caleb Fangmeier
 
-Last Edited: January 24, 2023
+Last Edited: February 14, 2023
 
 ## Abstract
    This SOP covers the procedure for the encapsulation.
+   
 ## Required Materials
-  #### Instruments for the Encapsulation
+
+  ### Instruments for the Encapsulation
+  
    - Nordson EFD 3-Axis EV Series Automated Fluid Dispensing Robot
    - Nordson EFD's Ultimus I dispensers
    - Height Sensor 
@@ -15,7 +18,8 @@ Last Edited: January 24, 2023
    - Nordson EFD Precison Tips: 23GA (Orrange) 30GA (Pink) 32GA (Yellow)
    - Centrifuge Machine
   
-  #### Materials to Prepare the Encapsulant
+  ### Materials to Prepare the Encapsulant
+  
    - Sylgard 186 Silicon Elastomer Kit (Base & Curing Agent)
    - Nordson EFD 2K 50ml Manual Cartidges Dispenser Gun, 10:1 ratio
    - Nordson EFD 2-Part Cartidegs with Sealing Cap, 10:1 ratio
@@ -33,7 +37,7 @@ Users must complete a short training program with either Caleb or another traine
 
 ## Procedure
 
-### Encapsulant (Sylgard)  Preparation Procedure
+### Encapsulant (Sylgard 186) Mixing Procedure
 
  1. First, wear the gloves and then place the 2-Part Cartidge barrale on a stand to hold. 
  2.  Using a 1cc syring fill up the thin part of the cartidge by the sylgard curing agent and seal it up by the piston
@@ -59,7 +63,7 @@ Users must complete a short training program with either Caleb or another traine
   1. Hit the "Needle Z Detect" button to calibrate the z height. 
   2. Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
   
-  ### Step 5: Despensing
+  ### Step 5: Despensing (Potting)
   
   ### Step 6: Removing Syring from Holder
   
@@ -71,9 +75,37 @@ Users must complete a short training program with either Caleb or another traine
   
   ### Step 10: Transfering Modules to the Carrier
   
-   
+  ## Results 
+  
+
+  - Needle tip size
+  - Air Pressure
+  - Encapsulant Bead Dimensions (Width, lenght, Height)
+  - Tip and Bond Pad Gap
+  - Rate of motion of the Syringe ( Flow Rate)
+  - Number of Passes
+  - Line Dispense Setup
+  - Backtrack Setup
+  - Z Clearance Setup
+  - Timming
+  - Curing Time
+  - Bead Dimension after Curing
+  - Bead Dimension on PCB w/wo wirebonds
+  - Bead Dimension on Glass Plate
+  - Bead Dimension vs Speed/Air_Pressure/Tip_Gap/Pass_No/Time/Cure_Time/Tip_Size 
+
+
   ## Timming
    
+  ### Mixing sylgard and filling cartidg barrel: 
+  ### Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot 
+  ### Calibration and pruging time
+  ### Potting Time
+  
+  ### Useful Pot life from time of mix
+  
+  ### Curing time at room temperuture 
+  
   #### Mix, fill syringe, removing bubbles, mount syringe on robot & purge needle ~ 10 mins
   #### Calibration using Needle tip detect, Needle XY adjust ~ 5 mins
   #### Encapsulation timming with two passes using 30GA precsion tip (pink) where pressure is 100 psi and speed is 0.1 mm/s
@@ -82,6 +114,8 @@ Users must complete a short training program with either Caleb or another traine
   - 8 hrs to 24hrs to cure the sylgard 186 at room temp
   - In a oven it takes 1.5 hrs at 50˚C  
 
-  ## Height Sensor Setuping and Programming
+  ## Height Sensor Mounting and Programming
   
+  ## Example Scripts
   
+  ## Dispenser Manuals and Documentations
