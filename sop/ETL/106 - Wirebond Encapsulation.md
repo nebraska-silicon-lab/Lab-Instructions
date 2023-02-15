@@ -73,7 +73,7 @@ Users must complete a short training program with either Caleb or another traine
   
   ### Step 9: Saving and Ending the Program
   
-  ### Step 10: Creating and Publishing Report
+  ### Step 10: Inspecting Visually and Creating and Publishing Report
   
   ### Step 11: Transfering Plates to the Curing Vacuum Oven
   
@@ -112,7 +112,7 @@ Users must complete a short training program with either Caleb or another traine
   - Useful Pot life from time of mix ~ 90 mins
   
   - Curing time at room temperuture ~ 8 hrs
-  - Curing time in oven at 60˚C ~ 30 mins and at 50˚C ~ ?
+  - Curing time in oven at 60˚C ~ 45 mins and at 50˚C ~ 60 mins without vacuum 
 
   ## Line Dispanse Programming
   
