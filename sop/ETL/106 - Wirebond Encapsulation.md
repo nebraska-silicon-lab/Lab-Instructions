@@ -103,8 +103,9 @@ Users must complete a short training program with either Caleb or another traine
   - Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot: ~ 10 mins
   - Calibration and pruging time: ~ 10 mins
   - Potting Time 
-  ####### 1 pass ~ 3.5 mins and Total time for a single module ~ 15 mins
-  ####### 2 passes ~ 7 mins on a pad. Total time for four pads ~ 30 mins
+  
+  * 1 pass ~ 3.5 mins and Total time for a single module ~ 15 mins
+  * 2 passes ~ 7 mins on a pad. Total time for four pads ~ 30 mins
   
   - Useful Pot life from time of mix ~ 90 mins
   
