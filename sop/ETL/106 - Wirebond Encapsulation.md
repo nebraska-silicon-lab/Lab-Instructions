@@ -5,7 +5,7 @@ Author: Jahid Hossain
 Last Edited: January 24, 2023
 
 ## Abstract
-
+   This SOP covers the procedure for the encapsulation.
 ## Required Materials
   #### Instruments for the Encapsulation
    - Nordson EFD 3-Axis EV Series Automated Fluid Dispensing Robot
@@ -29,31 +29,49 @@ Nordoson Dispense Motion
 
 ## Required Training
 
+Users must complete a short training program with either Caleb or another trained person to conduct this activity.
 
 ## Procedure
 
-#### Encapsulant Preparation Procedure
-##### Time needed to complete this prodcedure is 30mins to 1hr
+### Encapsulant (Sylgard)  Preparation Procedure
+
  1. First, wear the gloves and then place the 2-Part Cartidge barrale on a stand to hold. 
  2.  Using a 1cc syring fill up the thin part of the cartidge by the sylgard curing agent and seal it up by the piston
  3.  Using a 10cc syringe or using an ice-cream stick fill up the thick parth of the cartidge and seal it up by the piston
  4.  Set the cartidge in the dispenser gun                                                                                                              <img src="https://github.com/jhosain/Lab-Instructions/blob/patch-1/sop/ETL/106_materials/images/dispenser_gun.jpeg" width="400px">
  
  
-### Step 2
-#### Encapsulation Procedure
-### Step 1
+
+### Encapsulation Procedure
+
+  ### Step 1: Preapring and Moungint the Dispenser Syringe 
+  
   Plug the static spiral mixer to the cartidge and the fill up the 5cc syringe barrel by pressing the gun
   Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
   Rplace tip cap with a precision dispanse tip from the syringe barrel and attach it to the adapter assembly
   
-  ### Step 2: Calibration
+  ### Step 2: Purging the Dispenser Syring 
+  
+  ### Step 3: Starting the Program
+  
+  ### Step 4: Calibrating the Needle Tip 
   
   1. Hit the "Needle Z Detect" button to calibrate the z height. 
   2. Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
   
-  ### Step 3: Encapsulation
+  ### Step 5: Despensing
   
+  ### Step 6: Removing Syring from Holder
+  
+  ### Step 7: Saving and Ending the Program
+  
+  ### Step 8: Creating and Publishing Report
+  
+  ### Step 9: Transfering Plates to the Curing Vacuum Oven
+  
+  ### Step 10: Transfering Modules to the Carrier
+  
+   
   ## Timming
    
   #### Mix, fill syringe, removing bubbles, mount syringe on robot & purge needle ~ 10 mins
@@ -63,3 +81,7 @@ Nordoson Dispense Motion
   #### Encapsulant Curing time
   - 8 hrs to 24hrs to cure the sylgard 186 at room temp
   - In a oven it takes 1.5 hrs at 50˚C  
+
+  ## Height Sensor Setuping and Programming
+  
+  
