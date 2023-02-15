@@ -97,14 +97,14 @@ Users must complete a short training program with either Caleb or another traine
 
   ## Timming
    
-  ### Mixing sylgard and filling cartidg barrel: 
-  ### Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot 
-  ### Calibration and pruging time
-  ### Potting Time
+  - Mixing sylgard and filling cartidg barrel: 
+  - Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot 
+  - Calibration and pruging time
+  - Potting Time
   
-  ### Useful Pot life from time of mix
+  - Useful Pot life from time of mix
   
-  ### Curing time at room temperuture 
+  - Curing time at room temperuture 
   
   #### Mix, fill syringe, removing bubbles, mount syringe on robot & purge needle ~ 10 mins
   #### Calibration using Needle tip detect, Needle XY adjust ~ 5 mins
