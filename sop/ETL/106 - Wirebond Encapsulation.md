@@ -24,7 +24,7 @@ Last Edited: February 14, 2023
    - Nordson EFD 2K 50ml Manual Cartidges Dispenser Gun, 10:1 ratio
    - Nordson EFD 2-Part Cartidegs with Sealing Cap, 10:1 ratio
    - Nordson EFD 2K, 10:1 S & L 50ML Pistons
-   - Disposable Spiral Mixer and 1cc, 5cc & 10cc Syringe
+   - Disposable Spiral Mixer and 1cc, 5cc & 10cc Syringe, and Spatula
 
 ## Required Software
 
@@ -39,10 +39,10 @@ Users must complete a short training program with either Caleb or another traine
 
 ### Encapsulant (Sylgard 186) Mixing Procedure
 
- 1. First, wear the gloves and then place the 2-Part Cartidge barrale on a stand to hold. 
- 2.  Using a 1cc syring fill up the thin part of the cartidge by the sylgard curing agent and seal it up by the piston
- 3.  Using a 10cc syringe or using an ice-cream stick fill up the thick parth of the cartidge and seal it up by the piston
- 4.  Set the cartidge in the dispenser gun                                                                                                              <img src="https://github.com/jhosain/Lab-Instructions/blob/patch-1/sop/ETL/106_materials/images/dispenser_gun.jpeg" width="400px">
+ - Place the 2-Part Cartidge barrale on a stand to hold (wear the gloves). 
+ - Using a 1cc syring fill up the thin part of the 2 part cartidge by the sylgard curing agent and seal it up by the piston
+ - Using a 10cc syringe or using an spatula fill up the thicker part of the 2 part cartidge and seal it up by the piston
+ - Setup the cartidge barrel in the dispenser gun                                                                                                              <img src="https://github.com/jhosain/Lab-Instructions/blob/patch-1/sop/ETL/106_materials/images/dispenser_gun.jpeg" width="400px">
  
  
 
@@ -50,9 +50,11 @@ Users must complete a short training program with either Caleb or another traine
 
   ### Step 1: Preapring and Moungint the Dispenser Syringe 
   
-  Plug the static spiral mixer to the cartidge and the fill up the 5cc syringe barrel by pressing the gun
-  Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
-  Rplace tip cap with a precision dispanse tip from the syringe barrel and attach it to the adapter assembly
+  - Plug the static spiral mixer to the cartidge barrel 
+  - Fill up the 5cc syringe barrel (Needle side is closed by the tip cap) by pressing the gun 
+  - Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
+  - Replace tip cap with a precision dispanse tip from the syringe barrel and attach it to the adapter assembly
+  - Mount the syringe on the robot
   
   ### Step 2: Purging the Dispenser Syring 
   
@@ -60,8 +62,8 @@ Users must complete a short training program with either Caleb or another traine
   
   ### Step 4: Calibrating the Needle Tip 
   
-  1. Hit the "Needle Z Detect" button to calibrate the z height. 
-  2. Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
+  - Hit the "Needle Z Detect" button to calibrate the z height. 
+  - Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
   
   ### Step 5: Despensing (Potting)
   
@@ -92,27 +94,23 @@ Users must complete a short training program with either Caleb or another traine
   - Bead Dimension after Curing
   - Bead Dimension on PCB w/wo wirebonds
   - Bead Dimension on Glass Plate
-  - Bead Dimension vs Speed/Air_Pressure/Tip_Gap/Pass_No/Time/Cure_Time/Tip_Size 
+  - Bead Dimension vs Speed/Air_Pressure/Tip_Gap/Pass_No/Time/Cure_Time/Tip_Size/Surface
 
 
   ## Timming
    
-  - Mixing sylgard and filling cartidg barrel: 
-  - Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot 
-  - Calibration and pruging time
-  - Potting Time
+  - Mixing sylgard and filling cartidg barrel: ~ 30 mins
+  - Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot: ~ 10 mins
+  - Calibration and pruging time: ~ 10 mins
+  - Potting Time 
+  * 1 pass ~ 3.5 mins and Total time for a single module ~ 15 mins
+  * 2 passes ~ 7 mins on a pad. Total time for four pads ~ 30 mins
   
-  - Useful Pot life from time of mix
+  - Useful Pot life from time of mix ~ 90 mins
   
-  - Curing time at room temperuture 
+  - Curing time at room temperuture ~ 8 hrs
+  - Curing time in oven at 60˚C ~ 30 mins and at 50˚C ~ ?
   
-  #### Mix, fill syringe, removing bubbles, mount syringe on robot & purge needle ~ 10 mins
-  #### Calibration using Needle tip detect, Needle XY adjust ~ 5 mins
-  #### Encapsulation timming with two passes using 30GA precsion tip (pink) where pressure is 100 psi and speed is 0.1 mm/s
-  - 1 pass ~ 3.5 mins and 2 passes ~ 7 mins on a pad. Total time for four pads is 30 mins
-  #### Encapsulant Curing time
-  - 8 hrs to 24hrs to cure the sylgard 186 at room temp
-  - In a oven it takes 1.5 hrs at 50˚C  
 
   ## Height Sensor Mounting and Programming
   
