@@ -1,0 +1,48 @@
+Xillinx Software
+
+Use the Batch Mode Installation Flow, outlined in this pdf starting on page 47:
+https://docs.xilinx.com/v/u/2019.2-English/ug973-vivado-release-notes-install-license
+
+This is a terminal based install that is supposed to me more stable than the GUI based install, and seems to run a bit quicker overall.
+
+You will likely need to install this package
+
+sudo apt install libtinfo5
+
+Otherwise the installation will not complete, hanging on the finishing stage.
+
+Navigate here:
+
+https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2021-1.html
+
+We want the 2021.1 version of the package. Of the 3 options, select
+
+Xilinx Unified Installer 2021.1 SFD (TAR)
+
+a tar file that contains the programs we want to use. The file is rather large and can take some time to download depending on network speeds. Unpack it either by double clicking the file icon from the file viewer, with from the terminal with the command:
+
+tar -xvf Xilinx_Unified_2021.1_0610_2318.tar.gz
+
+You may have to update the filename. Again, due to the size of the file, this may take a bit.
+
+The rest of the steps from here must be completed from the terminal.
+With the file unpacked, navigate to the new directory. The first step is to create a config file that will be used to tell the installer what to do. Use the command:
+
+./xsetup -b ConfigGen
+
+and follow the prompts on the terminal to create the file. Select Vivado(option 2) if you want to be able to edit code, or Lab Edition (option 5) if you just want to upload firmware. In the case of a Vivado installation, you will need a software key from the lab manager. Make sure to select the Enterprise version of Vivado, otherwise you will not be able to programe the board
+
+You can open the file to make changes, but the defaults should be fine. With the config file ready, use this command to install Vivado
+
+./xsetup --agree XilinxEULA,3rdPartyEULA,WebTalkTerms --batch Install --config <path/to/config>
+
+Installation shouldn't take too long, O(30min). This process may be repeated if different Vivado versions need to be installed, just rerun the config creation command with different options.
+
+Vivado is now installed and should be working.
+
+Make sure to add the path to Vivado to you $PATH. You can do so by adding 
+
+export PATH="/tools/Xilinx/Vivado/2021.1/bin/:$PATH"
+
+to your .bashrc file. You can get the specific path from the desktop icon created when installing Vivado
+

@@ -1,0 +1,17 @@
+WARNING: WE ONLY HAVE ONE KEY FOR NOW. DO NOT USE OR YOU WILL DEACTIVATE THE EXISTING INSTALL
+
+We only have access to one key for now. Make sure that the work you will do actually needs the full Vivado version.
+
+Start by oppening Vivado. Once it is running, open the Help tab at the top, and navigate to Manage License. This will open the Vivado License Manager program.
+
+Navigate to the View System Information->View Host Infromation page. You will need this info modify the key.
+
+Open the license managment website through the Get License->Obtain License tabs. Click Connect Now to be taken to the webpage.
+
+From the webpage, navigate to the Manage Licenses tab. Scroll down and click Modify License. Enter the information from the View Host metioned earlier. Click through the prompts until a window appears telling you a new key has been sent to the lab manager.
+
+Get this file and move it to the $HOME/.Xilinx directory.
+
+Back in the Vivado License Manager, navigate to Manage License->View License Status. Click refresh and the keys should appear.
+
+The new installation of Vivado is now active.
