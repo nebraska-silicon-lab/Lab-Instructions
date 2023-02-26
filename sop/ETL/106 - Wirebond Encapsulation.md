@@ -34,6 +34,7 @@ Last Edited: February 14, 2023
    - Electronic Balance
    - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
+   - Stand 
    - Vacuum Oven
 
 <table>
@@ -56,10 +57,11 @@ Users must complete a short training program with either Caleb or another traine
 
 ### Encapsulant (Sylgard 186) Mixing Procedure
 
- - Place the 2-Part Cartidge barrale on a stand to hold (wear the gloves). 
- - Using a 1cc syring fill up the thin part of the 2 part cartidge by the sylgard curing agent and seal it up by the piston
- - Using a 10cc syringe or using an spatula fill up the thicker part of the 2 part cartidge and seal it up by the piston
- - Setup the cartidge barrel in the dispenser gun                                                                                                           
+ - Wear the gloves and cover the work bench with the Kimwipes
+ - Place the 2-Part Cartidge barrale on a stand to hold 
+ - Fill up the smaller ratio part of the 2 part cartidge by the sylgard curing agent using a 1cc syring, seal it up by the piston 
+ - Fill up the large part of the 2 part cartidge by the elastomer base using a 10cc syringe or using an spatula, seal it up by the piston 
+ - Setup the cartidge barrel on the dispenser gun                                                                                                           
  
  
 
