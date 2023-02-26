@@ -5,9 +5,10 @@ Author: **Jahid Hossain**, Caleb Fangmeier
 Last Edited: February 14, 2023
 
 ## Abstract
-   This SOP covers the procedure for the encapsulation.
-   
-## Required Materials
+   This SOP covers step-by-step the procedure of encapsulating the wire bonds on assembled modules.
+
+
+## Required Tools and Materials
 
   ### Instruments for the Encapsulation
   
@@ -16,7 +17,7 @@ Last Edited: February 14, 2023
    - Height Sensor 
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
    - Nordson EFD Precison Tips: 23GA (Orrange) 30GA (Pink) 32GA (Yellow)
-   - Centrifuge Machine
+   - Centrifugal Machine
   
   ### Materials to Prepare the Encapsulant
   
@@ -24,11 +25,13 @@ Last Edited: February 14, 2023
    - Nordson EFD 2K 50ml Manual Cartidges Dispenser Gun, 10:1 ratio
    - Nordson EFD 2-Part Cartidegs with Sealing Cap, 10:1 ratio
    - Nordson EFD 2K, 10:1 S & L 50ML Pistons
+   - Electronic Balance
    - Disposable Spiral Mixer and 1cc, 5cc & 10cc Syringe, and Spatula
 
 ## Required Software
 
 Nordoson Dispense Motion
+Windows based Operating System
 
 
 ## Required Training
