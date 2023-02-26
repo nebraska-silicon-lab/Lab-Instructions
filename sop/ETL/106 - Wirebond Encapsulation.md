@@ -44,8 +44,8 @@ Last Edited: February 14, 2023
 
 ## Required Software
 
-Nordoson Dispense Motion
-Windows based Operating System
+- Nordoson Dispense Motion
+- Windows based Operating System
 
 
 ## Required Training
