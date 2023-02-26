@@ -16,9 +16,12 @@ Last Edited: February 14, 2023
    - Nordson EFD's Ultimus I dispensers
    - Height Sensor 
    - Fully assembled module on carrier
-  <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Mini_Gantry.png" alt="Alt Text" height="500"/>
-  
-  <img src="https://github.com/jhosain/Lab-Instructions/blob/49ff5233f0ebae66c431dc95049ced5a41a420ab/sop/ETL/106_materials/images/Height_Sensor.png" alt="Alt Text" height="500"/>
+ <table>
+  <tr>
+    <td><img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Mini_Gantry.png" alt="Alt Text" height="500"></td>
+    <td><img src="https://github.com/jhosain/Lab-Instructions/blob/49ff5233f0ebae66c431dc95049ced5a41a420ab/sop/ETL/106_materials/images/Height_Sensor.png" alt="Alt Text" height="500"/></td>
+  </tr>
+</table>
   
   ### Tools and Materials to Prepare the Encapsulant
   
