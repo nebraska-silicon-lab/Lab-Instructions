@@ -34,6 +34,7 @@ Last Edited: February 14, 2023
    - Electronic Balance
    - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
+   - Vacuum Oven
 
 <table>
   <tr>
