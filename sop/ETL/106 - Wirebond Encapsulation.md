@@ -15,18 +15,19 @@ Last Edited: February 14, 2023
    - Nordson EFD 3-Axis EV Series Automated Fluid Dispensing Robot
    - Nordson EFD's Ultimus I dispensers
    - Height Sensor 
-   - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
-   - Nordson EFD Precison Tips: 23GA (Orrange) 30GA (Pink) 32GA (Yellow)
+   - Fully assembled module on carrier
+  
+  ### Tools and Materials to Prepare the Encapsulant
+  
    - Centrifugal Machine
-  
-  ### Materials to Prepare the Encapsulant
-  
    - Sylgard 186 Silicon Elastomer Kit (Base & Curing Agent)
    - Nordson EFD 2K 50ml Manual Cartidges Dispenser Gun, 10:1 ratio
    - Nordson EFD 2-Part Cartidegs with Sealing Cap, 10:1 ratio
    - Nordson EFD 2K, 10:1 S & L 50ML Pistons
+   - Nordson EFD Precison Tips: 23GA (Orrange) 30GA (Pink) 32GA (Yellow)
    - Electronic Balance
-   - Disposable Spiral Mixer and 1cc, 5cc & 10cc Syringe, and Spatula
+   - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
+   - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
 
 ## Required Software
 
