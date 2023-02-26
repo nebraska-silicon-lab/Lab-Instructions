@@ -16,7 +16,7 @@ Last Edited: February 14, 2023
    - Nordson EFD's Ultimus I dispensers
    - Height Sensor 
    - Fully assembled module on carrier
-  <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Mini_Gantry.png" alt="Alt Text" width="500" height="400"/>
+  <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Mini_Gantry.png" alt="Alt Text"/>
   
   ### Tools and Materials to Prepare the Encapsulant
   
@@ -29,7 +29,7 @@ Last Edited: February 14, 2023
    - Electronic Balance
    - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
-    <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Materials_For_Mixing.png" alt="Alt Text" width="500" height="400"/>
+    <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Materials_For_Mixing.png" alt="Alt Text"/>
 
 ## Required Software
 
