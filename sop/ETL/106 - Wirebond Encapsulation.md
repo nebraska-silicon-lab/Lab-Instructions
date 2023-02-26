@@ -16,7 +16,7 @@ Last Edited: February 14, 2023
    - Nordson EFD's Ultimus I dispensers
    - Height Sensor 
    - Fully assembled module on carrier
-  <img src="https://github.com/jhosain/Lab-Instructions/blob/2bb1ce766354fa97ed55bbba72e1325edf19d7dd/sop/ETL/106_materials/images/Screen%20Shot%202023-02-26%20at%201.16.33%20PM.png" alt="Alt Text" width="500"/>
+  <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Mini_Gantry.png" alt="Alt Text" width="500" height="300"/>
   
   ### Tools and Materials to Prepare the Encapsulant
   
@@ -29,7 +29,7 @@ Last Edited: February 14, 2023
    - Electronic Balance
    - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
-    <img src="https://github.com/jhosain/Lab-Instructions/blob/2bb1ce766354fa97ed55bbba72e1325edf19d7dd/sop/ETL/106_materials/images/Screen%20Shot%202023-02-26%20at%2012.48.03%20PM.png" alt="Alt Text" width="500"/>
+    <img src="https://github.com/jhosain/Lab-Instructions/blob/5c053aab6d16644239808934567de8e67dd6179b/sop/ETL/106_materials/images/Materials_For_Mixing.png" alt="Alt Text" width="500" height="300"/>
 
 ## Required Software
 
@@ -48,7 +48,7 @@ Users must complete a short training program with either Caleb or another traine
  - Place the 2-Part Cartidge barrale on a stand to hold (wear the gloves). 
  - Using a 1cc syring fill up the thin part of the 2 part cartidge by the sylgard curing agent and seal it up by the piston
  - Using a 10cc syringe or using an spatula fill up the thicker part of the 2 part cartidge and seal it up by the piston
- - Setup the cartidge barrel in the dispenser gun                                                                                                              <img src="https://github.com/jhosain/Lab-Instructions/blob/patch-1/sop/ETL/106_materials/images/dispenser_gun.jpeg" width="400px">
+ - Setup the cartidge barrel in the dispenser gun                                                                                                           
  
  
 
