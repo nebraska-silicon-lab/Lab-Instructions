@@ -69,15 +69,25 @@ Users must complete a short training program with either Caleb or another traine
 
   ### Step 1: Preapring and Moungint the Dispenser Syringe 
   
-  - Plug the static spiral mixer to the cartidge barrel 
-  - Fill up the 5cc syringe barrel (Needle side is closed by the tip cap) by pressing the gun 
+  - Attach the spiral mixer to the cartidge barrel 
+  - Screw the blue cap onto the syringe
+  - Pour mixed encapsulant into the 5cc syringe by pressing the dispenser gun
   - Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
-  - Replace tip cap with a precision dispanse tip from the syringe barrel and attach it to the adapter assembly
-  - Mount the syringe on the robot
+  - Put the filled syringe and an empty syringe into opposite positions in the centrifuge rotor. Degas by running the centrifuge at 5000 RPM for at least 8 minutes.
+  - Once the encapsulant has been sufficiently centrifuged, then the user should take the encapsulant out, look for any major air pockets, and replace the blue cap with a precision dispanse needle.
+  - Screw the syringe to the adapter and mount the syringe on the robot stand
   
   ### Step 2: Purging the Dispenser Syring 
   
+  - Turn on the computer and open the nordoson dispense motion software 
+  - Purging can be done via hand by pressing the dispensing button on the EFD Ultimus
+  - Click on the system settings and click on open tab
+  - Clink on the Purge button
+  - Once the user sees encapsulant coming out slightly then stop and gently touch a kimwipe to the needle tip
+  
   ### Step 3: Starting the Program
+  
+  - Open a saved program or create a new program
   
   ### Step 4: Calibrating the Needle Tip 
   
