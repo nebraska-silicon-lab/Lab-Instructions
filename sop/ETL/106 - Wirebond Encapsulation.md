@@ -35,11 +35,13 @@ Last Edited: February 14, 2023
    - Disposable Spiral Mixer and 1cc & 10cc Syringe, and Spatula
    - Optimum Syringe Barrel (5cc), Syringe Barrel Adapters, Piston and Tip Caps 
    - Stand 
-   - Vacuum Oven
+   - Lindberg/Blue-M Laboratory Vacuum Oven
+  
 
 <table>
   <tr>
     <td><img src="https://github.com/jhosain/Lab-Instructions/blob/adc72fadc96f47e0cd351dcefd4421fe60658971/sop/ETL/106_materials/images/Mixing_tools.pmg.png" alt="Alt Text" height="500"></td>
+    <td><img src="https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/4ebc7bd9b4cc317091ead333f8c5d22cf70e17fb/sop/ETL/106_materials/images/Screen%20Shot%202023-02-28%20at%205.26.35%20PM.png" alt="Alt Text" height="500"></td>
   </tr>
 </table>
 
