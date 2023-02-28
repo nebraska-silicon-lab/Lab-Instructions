@@ -96,15 +96,29 @@ Users must complete a short training program with either Caleb or another traine
   
   ### Step 5: Despensing (Potting)
   
-  ### Step 6: Removing Syring from Holder
+  - Once everything is set the user may go with the saved program or modify the program, allowing the mini-gantry to pot the wire bonds
+  - Place the assembled module carrier on the robot base plate
+  - Start potting by running the program
+  
+  ### Step 6: Removing Syringe from Holder
+  
+  - Once the working life of encapsulant is over dump the syringe and replace it by new one if needed
   
   ### Step 7: Saving and Ending the Program
   
+  - If the program is modifed don't forget to save the program
+  
   ### Step 8: Creating and Publishing Report
+  
+  - Report should contain the batch number and some of the results information from the result section below
   
   ### Step 9: Transfering Plates to the Curing Vacuum Oven
   
+  - Once the potting is finished put the encapsulated module into the vacumm oven to cure at 60˚C for 30 mins
+    
   ### Step 10: Transfering Modules to the Carrier
+  
+  - Once the encapsulated module are cured transfer them to a designated dry area
   
   ## Results 
   
@@ -129,14 +143,14 @@ Users must complete a short training program with either Caleb or another traine
   ## Timming
    
   - Mixing sylgard and filling cartidg barrel: ~ 30 mins
-  - Mixing, filling syringe, degassing (removing air bubbles), mounting syringe on robot: ~ 10 mins
+  - Mixing, filling syringe ~ 10 mins
+  - Degassing (removing air bubbles), mounting syringe on robot ~ 10 mins
   - Calibration and pruging time: ~ 10 mins
   - Potting Time 
   * 1 pass ~ 3.5 mins and Total time for a single module ~ 15 mins
   * 2 passes ~ 7 mins on a pad. Total time for four pads ~ 30 mins
   
   - Useful Pot life from time of mix ~ 90 mins
-  
   - Curing time at room temperuture ~ 8 hrs
   - Curing time in oven at 60˚C ~ 30 mins and at 50˚C ~ ?
   
@@ -146,3 +160,5 @@ Users must complete a short training program with either Caleb or another traine
   ## Example Scripts
   
   ## Dispenser Manuals and Documentations
+  
+  https://github.com/jhosain/Lab-Instructions/blob/768eb1cc1a815b52ed1e035f0b792decac89b61e/sop/ETL/106_materials/Nordson-EFD-Ultimus-I-II-Operating-Manual.pdf
