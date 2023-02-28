@@ -2,7 +2,7 @@
 
 Author: **Jahid Hossain**, Caleb Fangmeier
 
-Last Edited: February 14, 2023
+Last Edited: February 28, 2023
 
 ## Abstract
    This SOP covers step-by-step the procedure of encapsulating the wire bonds on assembled modules.
