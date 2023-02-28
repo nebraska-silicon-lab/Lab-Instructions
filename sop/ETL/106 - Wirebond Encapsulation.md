@@ -99,6 +99,7 @@ Users must complete a short training program with either Caleb or another traine
   - Once everything is set the user may go with the saved program or modify the program, allowing the mini-gantry to pot the wire bonds
   - Place the assembled module carrier on the robot base plate
   - Start potting by running the program
+  - Make sure to monitor the sylgarde deposition by watching the needle. Should it veer off path, or dislocated in any way, STOP. 
   
   ### Step 6: Removing Syringe from Holder
   
@@ -114,7 +115,7 @@ Users must complete a short training program with either Caleb or another traine
   
   ### Step 9: Transfering Plates to the Curing Vacuum Oven
   
-  - Once the potting is finished put the encapsulated module into the vacumm oven to cure at 60˚C for 30 mins
+  - Once the modules have been encapsulated put them into the vacuum oven at 50 C for an hour to cure the encapsulant
     
   ### Step 10: Transfering Modules to the Carrier
   
