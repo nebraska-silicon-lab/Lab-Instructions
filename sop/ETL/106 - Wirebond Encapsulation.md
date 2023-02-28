@@ -159,6 +159,8 @@ Users must complete a short training program with either Caleb or another traine
   
   ## Example Scripts
   
+  https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/64b2fda4bc70a23b71700733215d9b36aa51efb0/sop/ETL/106_materials/Scripts/Dispanse_allline.SRC
+  
   ## Dispenser Manuals and Documentations
   
   https://github.com/jhosain/Lab-Instructions/blob/768eb1cc1a815b52ed1e035f0b792decac89b61e/sop/ETL/106_materials/Nordson-EFD-Ultimus-I-II-Operating-Manual.pdf
