@@ -103,6 +103,12 @@ Users must complete a short training program with either Caleb or another traine
   - Start potting by running the program
   - Make sure to monitor the sylgarde deposition by watching the needle. Should it veer off path, or dislocated in any way, STOP. 
   
+  <table>
+  <tr>
+    <td><img src="https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/34b568780d223a462ff5e476d205c3dd24d595a4/sop/ETL/106_materials/images/0%2058.jpeg" alt="Alt Text" height="500"></td>
+  </tr>
+</table>
+  
   ### Step 6: Removing Syringe from Holder
   
   - Once the working life of encapsulant is over dump the syringe and replace it by new one if needed
