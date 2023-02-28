@@ -157,6 +157,10 @@ Users must complete a short training program with either Caleb or another traine
 
   ## Height Sensor Mounting and Programming
   
+  https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/10c3c8147399fd2c56cc56ffa02cdff5624fff0c/sop/ETL/106_materials/Height%20Sensor%20Instructions%2006_06_2022.pdf
+  
+  https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/10c3c8147399fd2c56cc56ffa02cdff5624fff0c/sop/ETL/106_materials/Scripts/ht%20sensor.SRC
+  
   ## Example Scripts
   
   https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/64b2fda4bc70a23b71700733215d9b36aa51efb0/sop/ETL/106_materials/Scripts/Dispanse_allline.SRC
