@@ -162,7 +162,7 @@ Users must complete a short training program with either Caleb or another traine
   
   - Useful Pot life from time of mix ~ 90 mins
   - Curing time at room temperuture ~ 8 hrs
-  - Curing time in oven at 60˚C ~ 30 mins and at 50˚C ~ ?
+  - Curing time in oven at 60˚C ~ 45 mins and at 50˚C ~ 60 mins
   
 
   ## Height Sensor Mounting and Programming
