@@ -77,6 +77,7 @@ Users must complete a short training program with either Caleb or another traine
   - Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
   - Put the filled syringe and an empty syringe into opposite positions in the centrifuge rotor. Degas by running the centrifuge at 5000 RPM for at least 8 minutes.
   - Once the encapsulant has been sufficiently centrifuged, then the user should take the encapsulant out, look for any major air pockets, and replace the blue cap with a precision dispanse needle.
+  - Place a white syringe barrel piston inside the syringe and push it all the way in to make sure no air is trapped inside visibly
   - Screw the syringe to the adapter and mount the syringe on the robot stand
   
   ### Step 2: Purging the Dispenser Syring 
@@ -84,7 +85,7 @@ Users must complete a short training program with either Caleb or another traine
   - Turn on the computer and open the nordoson dispense motion software 
   - Purging can be done via hand by pressing the dispensing button on the EFD Ultimus
   - Click on the system settings and click on open tab
-  - Clink on the Purge button
+  - Clink on the Purge button, purge it at least 5 times
   - Once the user sees encapsulant coming out slightly then stop and gently touch a kimwipe to the needle tip
   
   ### Step 3: Starting the Program
