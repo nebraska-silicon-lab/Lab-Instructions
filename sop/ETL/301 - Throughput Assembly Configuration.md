@@ -62,6 +62,14 @@ The following picture is how the ETROCs (just ETROCs not the full assembly for e
 The convention for TL, TR, BR, and BL is shown here in this picture (same convnection for all of them even the ones in the other orientations as shown above).
 <img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png width=25% height=25%>
 
+1. Using this convention you take you move your gantry to the fiducials (activating the micro controller with the MPGON command is the easiest). 
+2. Turn on the camera with the VIDEO command to look for the fiducials. 
+3. Once you are at the fiducial note if its the TL, TR, BR, or BL fiducial as governed by the convention above. Then save it as variable with COPY $TL or COPY $TR etc... depending on the fiducial.
+4. Get the geometry of the Module PCB from the TP_Config.txt file, for the FIT command, by runnign the commmand: LOADCONFIG "" Scripts\ETLModules\ThroughPut\TP_Config.txt        OR whaever path it is for you to the TP_Config.txt file
+5. Run the command: FIT $pos $rot ETROC $TR $BR $BL $TL
+6. Print out the $pos and $rot with: PRINT %v $pos and PRINT %q $rot
+7. Copy paste these values into the Throughput_Assy_Configuration file where you replace the {} with your position vector and rot quaternion: 
+default.ETROC.4.1.pos: {649.703701,298.164172,63.961246}
+default.ETROC.4.1.rot: {-0.000069,0.001439,0.000857,-0.999999}
 
-
-### Step 2
+Same numbering scheme here as for the Module PCBs. The 4 is the chuck_number.bottom and the 1 is the position number on the Staging Plate for ETROC/LGAD sub-assemblies. The other numbers are given in the first figure of this section. It is important you follow that numbering scheme when you get the 15 ETROC positions.
