@@ -60,7 +60,7 @@ The following picture is how the ETROCs (just ETROCs not the full assembly for e
 <img src=https://user-images.githubusercontent.com/70072888/227598576-9d192e8d-5a0c-42a0-938d-f2bf18eef552.png width=25% height=25%>
 
 The convention for TL, TR, BR, and BL is shown here in this picture (same convnection for all of them even the ones in the other orientations as shown above).
-<img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png width=25% height=25%>
+<img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png width=50% height=50%>
 
 1. Using this convention you take you move your gantry to the fiducials (activating the micro controller with the MPGON command is the easiest). 
 2. Turn on the camera with the VIDEO command to look for the fiducials. 
