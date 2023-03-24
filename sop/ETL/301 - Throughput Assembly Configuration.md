@@ -23,9 +23,9 @@ You will need the following equipment:
 ## 1. Chuck Numbers
 In the Throughput_Assy_Configuration file there is a section like so:
 #chuck numbers
-# Bottom is the chuck that holds the assembly plate
+#Bottom is the chuck that holds the assembly plate
 chuck_number.bottom: 3
-# Top is the 16-pocket chuck that stages the ETROC+LGAD subassemblies as well as the baseplates
+#Top is the 16-pocket chuck that stages the ETROC+LGAD subassemblies as well as the baseplates
 chuck_number.top: 4
 
 "chuck_number.bottom" is the chuck that holds the Assembly Plate for the Module PCBs. And the "chuck_number.top" is the chuck that holds the ETROC/LGAD sub-assemblies. Note, chuck numbers for the positions of your chuck should already specified in your main configuration file at your gantry site. In your file there should be a section like, "graph_motion.pos.etl_chuck_1: {726,700,0}" and the chuck number is one in this case. 
@@ -35,7 +35,7 @@ chuck_number.top: 4
 To get the positions and rotations of the Module PCB you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.bottom). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT. 
 
 The convention for TL, TR, BR, and BL is shown here in this picture.
-![image](https://user-images.githubusercontent.com/70072888/227590837-eb1dd635-d767-4cf2-a3f4-d75b6fa10ea1.png)
+<img src=https://user-images.githubusercontent.com/70072888/227590837-eb1dd635-d767-4cf2-a3f4-d75b6fa10ea1.png width=25% height=25%>
 
 1. Using this convention you take you move your gantry to the fiducials (activating the micro controller with the MPGON command is the easiest). 
 2. Turn on the camera with the VIDEO command to look for the fiducials. 
