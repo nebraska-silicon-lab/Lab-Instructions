@@ -30,7 +30,7 @@ chuck_number.top: 4
 
 "chuck_number.bottom" is the chuck that holds the Assembly Plate for the Module PCBs. And the "chuck_number.top" is the chuck that holds the ETROC/LGAD sub-assemblies. Note, chuck numbers for the positions of your chuck should already specified in your main configuration file at your gantry site. In your file there should be a section like, "graph_motion.pos.etl_chuck_1: {726,700,0}" and the chuck number is one in this case. 
 
-##2. Module PCB Positions and Rotations
+## 2. Module PCB Positions and Rotations
 
 To get the positions and rotations of the Module PCB you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.bottom). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT. 
 
