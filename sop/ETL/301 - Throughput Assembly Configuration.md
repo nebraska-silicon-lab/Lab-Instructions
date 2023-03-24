@@ -26,23 +26,14 @@ You will need the following equipment:
 - Throughput ETROC/LGAD sub-assemblies
 - Throughput Module PCB
 
-<div style="display: block">
-  <figure align="center" style="width:40%">
-    <img src="https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png"
-      style="max-height:400px" alt="Assembly Plate for the Module PCBs">
-    <figcaption><b>Assembly Plate for the Module PCBs</b></figcaption>
-  </figure>
-  <figure align="center" style="width:30%">
-    <img src="https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg"
-    style="max-height:400px" alt="Throughput ETROC/LGAD sub-assemblies">
-    <figcaption ><b>Throughput ETROC/LGAD sub-assemblies</b></figcaption>
-  </figure>
-  <figure align="center" style="width:30%">
-    <img src="https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png"
-    style="max-height:400px" alt="Throughput Module PCB">
-    <figcaption ><b>Throughput Module PCB</b></figcaption>
-  </figure>
-</div>
+| ![][ref1]                              | ![][ref2]                                | ![][ref3]                 |
+|----------------------------------------|------------------------------------------|---------------------------|
+| **Assembly Plate for the Module PCBs** | **Throughput ETROC/LGAD sub-assemblies** | **Throughput Module PCB** |
+
+
+[ref1]: https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png
+[ref2]: https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg
+[ref3]: https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png
 
 ## 1. Chuck Numbers
 
@@ -72,11 +63,12 @@ The image below shows how the Module PCB are staged on the four positions on the
 specifically look at
 where the cut corner is), as well as the convention for TL, TR, BR, and BL.
 
-<figure align="center">
-    <img src=https://user-images.githubusercontent.com/70072888/227590837-eb1dd635-d767-4cf2-a3f4-d75b6fa10ea1.png 
-      style="max-height:400px" alt="Module PCB fiducial naming convention">
-    <figcaption><b>Module PCB fiducial naming convention</b></figcaption>
-</figure>
+| ![][ref4]                                 |
+|-------------------------------------------|
+| **Module PCB fiducial naming convention** |
+
+[ref4]: https://user-images.githubusercontent.com/70072888/227590837-eb1dd635-d767-4cf2-a3f4-d75b6fa10ea1.png
+
 
 1. Using this convention you move the gantry to the fiducials (activating the hand controller with the MPGON
    command is the easiest).
@@ -110,18 +102,16 @@ not all in the same orientation because we want to avoid large rotations of the 
 the Module PCB. The complications of this are handled in the script, the positoins and rotations just have to be
 measured correctly for it to work.
 
-<figure align="center">
 <img src=https://user-images.githubusercontent.com/70072888/227598576-9d192e8d-5a0c-42a0-938d-f2bf18eef552.png 
-  style="max-height:400px" alt="ETROC staging convention">
-</figure>
+  height="400px" alt="ETROC staging convention">
 
 The convention for TL, TR, BR, and BL is shown here in this picture (same convention for all of them even the ones in
 the other orientations as shown above).
 
-<figure align="center">
-   <img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png 
-     style="max-height:400px" alt="etroc fiducial naming convention">
-</figure>
+
+<img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png 
+ alt="etroc fiducial naming convention" height="400px">
+
 
 1. Using this convention you take you move your gantry to the fiducials (activating the hand controller with the `MPGON`
    command is the easiest).
