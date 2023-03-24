@@ -34,6 +34,9 @@ chuck_number.top: 4
 
 To get the positions and rotations of the Module PCB you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.bottom). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT. 
 
+This how the Module PCB are staged on the four positions on the Assembly Plate for Module PCBs:
+<img src=https://user-images.githubusercontent.com/70072888/227597445-baef27b4-6480-45cf-a948-7875ca9cd7b7.png width=25% height=25%>
+
 The convention for TL, TR, BR, and BL is shown here in this picture.
 <img src=https://user-images.githubusercontent.com/70072888/227590837-eb1dd635-d767-4cf2-a3f4-d75b6fa10ea1.png width=25% height=25%>
 
@@ -49,6 +52,13 @@ default.Module_PCB.3.1.rot: {-0.000069,0.001439,0.000857,-0.999999}
 
 IMPORTANT: The 3 corresponds to the chuck_number.bottom and the 1 is just a position number on the plate. There are 4 positions on the Assembly Plate for Module PCBs so you have 4 of these numbers: 1, 2, 3, and 4.
 
-##2. ETROC/LGAD sub assembly Positions and Rotations
+## 2. ETROC/LGAD sub assembly Positions and Rotations
+
+To get the positions and rotations of the ETROC you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.top). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT.
+
+The convention for TL, TR, BR, and BL is shown here in this picture.
+<img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png width=25% height=25%>
+
+
 
 ### Step 2
