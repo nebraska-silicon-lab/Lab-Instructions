@@ -26,18 +26,21 @@ You will need the following equipment:
 - Throughput ETROC/LGAD sub-assemblies
 - Throughput Module PCB
 
-<div style="display: flex">
-  <figure>
-    <img src="https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png"  width=100%>
-    <figcaption align="center"><b>Assembly Plate for the Module PCBs</b></figcaption>
+<div style="display: block">
+  <figure align="center" style="width:40%">
+    <img src="https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png"
+      style="max-height:400px" alt="Assembly Plate for the Module PCBs">
+    <figcaption><b>Assembly Plate for the Module PCBs</b></figcaption>
   </figure>
-  <figure>
-    <img src="https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg"  width=100%>
-    <figcaption align="center"><b>Throughput ETROC/LGAD sub-assemblies</b></figcaption>
+  <figure align="center" style="width:30%">
+    <img src="https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg"
+    style="max-height:400px" alt="Throughput ETROC/LGAD sub-assemblies">
+    <figcaption ><b>Throughput ETROC/LGAD sub-assemblies</b></figcaption>
   </figure>
-  <figure>
-    <img src="https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png"  width=100%>
-    <figcaption align="center"><b>Throughput Module PCB</b></figcaption>
+  <figure align="center" style="width:30%">
+    <img src="https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png"
+    style="max-height:400px" alt="Throughput Module PCB">
+    <figcaption ><b>Throughput Module PCB</b></figcaption>
   </figure>
 </div>
 
