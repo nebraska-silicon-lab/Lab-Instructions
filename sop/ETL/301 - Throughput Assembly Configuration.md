@@ -72,4 +72,4 @@ The convention for TL, TR, BR, and BL is shown here in this picture (same convne
 default.ETROC.4.1.pos: {649.703701,298.164172,63.961246}
 default.ETROC.4.1.rot: {-0.000069,0.001439,0.000857,-0.999999}
 
-Same numbering scheme here as for the Module PCBs. The 4 is the chuck_number.bottom and the 1 is the position number on the Staging Plate for ETROC/LGAD sub-assemblies. The other numbers are given in the first figure of this section. It is important you follow that numbering scheme when you get the 15 ETROC positions.
+Same numbering scheme here as for the Module PCBs. The 4 is the chuck_number.top and the 1 is the position number on the Staging Plate for ETROC/LGAD sub-assemblies. The other numbers are given in the first figure of this section. It is important you follow that numbering scheme when you get the 15 ETROC positions.
