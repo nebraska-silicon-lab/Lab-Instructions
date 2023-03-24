@@ -57,7 +57,7 @@ IMPORTANT: The 3 corresponds to the chuck_number.bottom and the 1 is just a posi
 To get the positions and rotations of the ETROC you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.top). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT.
 
 The following picture is how the ETROCs (just ETROCs not the full assembly for ease of explaining, but you would put the full sub assemblies in the same way) are staged on the Staging plate for ETROC/LGAD sub-assemblies. Note the ETROCs are not all in the same orientation because we want to avoid large rotations of the ETROCs when doing the pick and place to the Module PCB. The complications of this are handled in the script, the positoins and rotations just have to be measured correctly for it to work.
-<img src=https://user-images.githubusercontent.com/70072888/227598576-9d192e8d-5a0c-42a0-938d-f2bf18eef552.png width=60% height=60%>
+<img src=https://user-images.githubusercontent.com/70072888/227598576-9d192e8d-5a0c-42a0-938d-f2bf18eef552.png width=100% height=100%>
 
 The convention for TL, TR, BR, and BL is shown here in this picture (same convnection for all of them even the ones in the other orientations as shown above).
 <img src=https://user-images.githubusercontent.com/70072888/227596912-b5a600a8-1a7d-45fd-87c0-6d775f52b397.png width=50% height=50%>
