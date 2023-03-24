@@ -15,10 +15,10 @@ This document is to provide instructions to get the correct positions and other 
 
 You will need the following equipment:
 - Staging plate for the ETROC/LGAD sub-assemblies
-- Assembly Plate for the Module PCBs <img src="https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png"  width=50% height=50%>
-- Throughput ETROC/LGAD sub-assemblies![PXL_20221031_201359441](https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg | width = 100)
-- Throughput Module PCB ![image](https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png | width=100)
-
+- Assembly Plate for the Module PCBs 
+<img src="https://user-images.githubusercontent.com/70072888/227585331-58b6eded-a7b2-43ae-8e3f-092bacba310b.png"  width=50% height=50%>
+- Throughput ETROC/LGAD sub-assemblies <img src="https://user-images.githubusercontent.com/70072888/227582484-cb1e6671-7a6b-4155-ae2f-4b942da2c486.jpg"  width=50% height=50%>
+- Throughput Module PCB <img src="https://user-images.githubusercontent.com/70072888/227586341-417144b4-194f-44b7-b187-433f3ce7b04f.png"  width=50% height=50%>
 
 ## Procedure
 
