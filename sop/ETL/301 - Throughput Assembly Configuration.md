@@ -34,7 +34,7 @@ chuck_number.top: 4
 
 To get the positions and rotations of the Module PCB you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.bottom). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT. 
 
-This how the Module PCB are staged on the four positions on the Assembly Plate for Module PCBs:
+This how the Module PCB are staged on the four positions on the Assembly Plate for Module PCBs (specifically look at where the cut corner is):
 <img src=https://user-images.githubusercontent.com/70072888/227597445-baef27b4-6480-45cf-a948-7875ca9cd7b7.png width=25% height=25%>
 
 The convention for TL, TR, BR, and BL is shown here in this picture.
