@@ -52,7 +52,7 @@ default.Module_PCB.3.1.rot: {-0.000069,0.001439,0.000857,-0.999999}
 
 IMPORTANT: The 3 corresponds to the chuck_number.bottom and the 1 is just a position number on the plate. There are 4 positions on the Assembly Plate for Module PCBs so you have 4 of these numbers: 1, 2, 3, and 4.
 
-## 2. ETROC/LGAD sub assembly Positions and Rotations
+## 3. ETROC/LGAD sub assembly Positions and Rotations
 
 To get the positions and rotations of the ETROC you need to go to measure its 4 fiducials using your gantry camera (while it is of course staged on the chuck, according to chuck_number.top). You then use the FIT function in gScript. I will now explain which 4 fiducials to call the top left (TL), top right (TR), bottom left (BL) and (BR); as well as the needed geometry for the FIT.
 
