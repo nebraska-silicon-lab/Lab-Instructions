@@ -8,7 +8,7 @@ Last Edited: March 24, 2023
 
 This document is to provide instructions to get the correct positions and other site specific information for the script
 that does the pick and place of the ETROC/LGAD sub-assemblies on the Module PCB for the throughput demonstration. The
-site specific information is held in a configuration file called `Throughput_Assy_Configuration.txt`
+site specific information is held in a configuration file called `TP_Site_Config.txt`
 (*not* `TP_Config.txt` which holds non-site specific information like the geometries of the pieces). I will provide
 instructions on how to get
 the following configurations and measurements:
