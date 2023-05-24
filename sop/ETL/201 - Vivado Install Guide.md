@@ -1,9 +1,9 @@
 # ETL:201 - Vivado Install Guide
 Author: Ian Reed
-Last Edited: March 06, 2023
+Last Edited: May 24, 2023
 
 ## Abstract
-   This SOP covers step-by-step the procedure of installing the Vivado software on a Linux computer.
+   This SOP covers step-by-step the procedure of installing the Vivado software on an Ubuntu 20.04 LTS machine. RHEL based systems should also work.
 
 # Start
 Use the Batch Mode Installation Flow, outlined in this pdf starting on page 47:
