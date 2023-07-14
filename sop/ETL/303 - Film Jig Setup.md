@@ -30,6 +30,11 @@ For the baseplate film, the appropriate top stencil is "BP V3" and the bottom st
 
 ## Procedure
 
+### Step 0: Prepare stencils
+
+The stencils are fabricated with a laser-cutting process which sometimes leaves burrs on the bottom side along some of the cuts. To remove these, just rub the bottom side of the stencil on some fine grit (eg. 2500) sandpaper until you can no longer feel any burrs.
+After sanding be sure to wash the stencils in soapy water to remove any residual grit or oils.
+
 ### Step 1: (if installed) Remove top stencil
 
  Use a 3/32" hex wrench to remove the six screws in the top of the jig as shown in Fig. 2. After all of the screws are removed, open the jig and take out the top stencil and clamps. Retain the clamps and screws for future use.
