@@ -69,13 +69,15 @@ The bottom stencil is installed in the same manner as the top stencil. See Step 
 Manually align the stencils so that the 1/4" holes on both line up with the matching holes on the jig. Then carefully close the jig while attempting to keep the stencils in place. 
 With the jig closed, firmly press the alignment pins into the jig. 
 With the pins installed, now use the hex wrench to tighten up the clamps for both the top and bottom stencils.
-Finally, remove the pins. Do not try to pull the pins back up the direction they were inserted because they will tend to bind on the stencils.
-Instead press them the rest of the way through and out the bottom of the jig. You may need to use a pair of plyers to pull them out.
-After the pins are removed, the process is complete and the jigs are ready for use.
-See SOP ETL/302 for details on use.
+
 
 | <img src="https://github.com/nebraska-silicon-lab/Lab-Instructions/assets/2569566/44df6ac7-479f-4f5c-8ba5-877206c14304" width="300px"/> |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | Fig 4. Clamshell jig with alignment pins installed                                                                                      |
+
+Finally, remove the pins. Do not try to pull the pins back up the direction they were inserted because they will tend to bind on the stencils.
+Instead press them the rest of the way through and out the bottom of the jig. You may need to use a pair of plyers to pull them out.
+After the pins are removed, the process is complete and the jigs are ready for use.
+See SOP ETL/302 for details on use.
 
 
