@@ -1,0 +1,183 @@
+// Jahid Hossain
+// Dispenser pressure 90 psi
+// Sylgard needed: 223.7 mg, total 1.25g
+// Degassing need for 10min at 5000rpm
+// Purging needed to remove air, do a complete test run on a module
+// Time for each module ~ 10mins, Total time for per batch 60mins
+
+
+Needle Z Detect,100,100,100,0
+
+Z Clearance Setup,5,1
+
+
+Label,0
+Line dispense Setup,1,0,1,2,0,1
+Line Speed,0.5
+Line Start,280,110,85.754
+Line End,280,180,85.754
+Backtrack Setup,0,1,0.1,2
+
+Label,1
+
+
+Fiducial Mark,183,52,58.5,1
+Fiducial Mark,236.5,52.25,58.5,2
+Fiducial Mark Adjust
+Fiducial Mark,183,91.15,58.5,1
+Fiducial Mark,236.35,91.35,58.5,2
+Fiducial Mark Adjust
+
+Label,2
+
+
+Line dispense Setup,1,0,1,2,0,1
+Dispense End Setup,0.5,10,0.5
+Line Speed,0.75
+Line Start,144.75,54.15,63.65
+Line End,144.75,97.15,63.65
+Backtrack Setup,0,1,0.1,2
+
+Step & Repeat Y,1,0,2,1,1,10002
+
+Step & Repeat Y,48.6,0,2,1,1,10002
+
+Step & Repeat X,0,50.75,1,4,1,10001
+
+
+End Program
+
+[option]
+isGray=0
+colorR=0
+hasDrop=0
+gap_spline=1
+DoffsetX=0
+DoffsetY=0
+isInch=0
+fastMatch=0
+alarmEnable=1
+alarmX=100
+alarmY=100
+smallZ=0
+alarmZ=100
+ringMark=0
+lightDefault=0
+lightOffset=0
+distantScaleX=0
+distantScaleY=0
+weightGlue=0
+weightAmount=0
+weightSecond=0
+weightVoltage=0
+weighAirBig=0
+colorG=0
+weightX=0
+weightY=0
+weightZ=0
+colorB=0
+matchPixel=1
+skip=3
+screenOffset=0
+evenOffset=0
+LightHighX=0
+LightHighY=0
+LightHighZ=0
+suckLocateX=0
+suckLocateY=0
+suckLocateZ=0
+LightDistance=0
+homeBeforeRun=1
+music=0
+detectLength=10
+thick=0
+baseSubtract=0
+pinTouch=65.274
+highSubtract=3.202998
+LaserLocateX=0
+LaserLocateY=0
+LaserLocateZ=0
+absoluteZ=0
+tipOffsetX=0
+tipOffsetY=0
+tipOffsetZ=0
+gluePutTime=60
+CCDPixelScaleX=41.00542
+CCDPixelScaleY=38.29509
+CCDPixelScaleX1=100
+CCDPixelScaleY1=100
+CCDFocusHeight=0
+XYMoveSpeed=50
+ZMoveSpeed=10
+UMoveSpeed=90
+tipHomeX=0
+tipHomeY=0
+tipHomeZ=0
+tipHomeU=0
+tipAdjustX=0.513
+tipAdjustY=123.083
+tipAdjustZ=61.5
+GlueInterval=2
+outGlueTime=10
+outGlueEnable=0
+MaximumAmount=0
+NowCountWarn=0
+GlueTimeWarn=1
+UVwait=0
+move_acc=200
+vector_acc=200
+LaserH=0
+LaserL=0
+LaserLimitEnable=0
+LaserProfileXStep=200
+LaserProfileYMax=5
+LaserProfileYMin=-5
+LaserProfileMax=0
+LaserProfileMin=0
+LaserProfileSkipErr=0
+LaserProfileMaxValue=5
+LaserProfileMinValue=-5
+LaserProfileAction=0
+score=0.65
+lensX=40.425
+lensY=162.993
+lensZ=60.625
+glueScore=0.1
+findGlueTime=0.2
+tailGlueTime=0.2
+offsetMark=18
+circle1=0
+circle2=0
+hs_x=69.602
+hs_y=108.14
+hs_z=0
+hs_initialz=10.071
+tipX2=62.337
+tipY2=93.075
+tipZ2=61.96
+ccdX2=146.236
+ccdY2=91.187
+ccdZ2=54.208
+tipX=0
+tipY=166.613
+tipZ=68.477
+cameraX=0
+cameraY=0
+cameraZ=0
+offsetGlueOut=0
+focus=58.185
+findDelay=0.2
+SearchRangeOrgX0=0
+SearchRangeOrgY0=0
+SearchRangeWidth0=639
+SearchRangeHeight0=479
+SearchRangeOrgX1=0
+SearchRangeOrgY1=0
+SearchRangeWidth1=0
+SearchRangeHeight1=0
+detail=0
+hs_in=8
+hs_out=8
+hs_limit=20
+hs_speed=1
+mminch=0
