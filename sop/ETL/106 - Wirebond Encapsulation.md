@@ -57,16 +57,14 @@ Users must complete a short training program with either Caleb or another traine
 
 ## Procedure
 
-### Encapsulant (Sylgard 186) Mixing Procedure
+### Encapsulant Cartidge Prepartion (Sylgard 186 Base & Cure Mixing Procedure)
 
- - Wear the gloves and cover the work bench with the Kimwipes
- - Place the 2-Part Cartidge barrale on a stand to hold 
- - Fill up the smaller ratio part of the 2 part cartidge by the sylgard curing agent using a 1cc syring, seal it up by the piston 
- - Fill up the large part of the 2 part cartidge by the elastomer base using a 10cc syringe or using an spatula, seal it up by the piston 
- - Setup the cartidge barrel on the dispenser gun                                                                                                           
- 
- 
-
+ - Don gloves and use Kimwipes to cover the workbench.
+ - Use a stand to hold the 2-Part Cartridge barrel.
+ - Fill the smaller ratio section of the 2-part cartridge with the Sylgard curing agent using a 1cc syringe, and seal it with the piston.
+ - Fill the larger ratio section of the 2-part cartridge with the elastomer base using a 10cc syringe or spatula, and seal it with the piston.
+ - Set up the cartridge barrel on the dispenser gun.
+                                                                                                        
 ### Encapsulation Procedure
 
   ### Step 1: Preapring and Moungint the Dispenser Syringe 
