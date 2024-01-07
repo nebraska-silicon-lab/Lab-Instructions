@@ -2,7 +2,7 @@
 
 Author: **Jahid Hossain**, Caleb Fangmeier
 
-Last Edited: February 28, 2023
+Last Edited: January 05, 2024
 
 ## Abstract
    This SOP covers step-by-step the procedure of encapsulating the wire bonds on assembled modules.
@@ -57,7 +57,7 @@ Users must complete a short training program with either Caleb or another traine
 
 ## Procedure
 
-### Encapsulant Cartidge Prepartion (Sylgard 186 Base & Cure Mixing Procedure)
+### Preparation of Encapsulant Cartridge (Sylgard 186 Base & Cure Mixing Procedure)
 
  - Don gloves and use Kimwipes to cover the workbench.
  - Use a stand to hold the 2-Part Cartridge barrel.
@@ -67,34 +67,36 @@ Users must complete a short training program with either Caleb or another traine
                                                                                                         
 ### Encapsulation Procedure
 
-  ### Step 1: Preapring and Moungint the Dispenser Syringe 
+  ### Step 1: Encapsulation Preparation
   
-  - Attach the spiral mixer to the cartidge barrel 
-  - Screw the blue cap onto the syringe
-  - Pour mixed encapsulant into the 5cc syringe by pressing the dispenser gun
-  - Use the centrifuge machine to remove the air bubbles from the dispensing syrige barrel
-  - Put the filled syringe and an empty syringe into opposite positions in the centrifuge rotor. Degas by running the centrifuge at 5000 RPM for at least 8 minutes.
-  - Once the encapsulant has been sufficiently centrifuged, then the user should take the encapsulant out, look for any major air pockets, and replace the blue cap with a precision dispanse needle.
-  - Place a white syringe barrel piston inside the syringe and push it all the way in to make sure no air is trapped inside visibly
-  - Screw the syringe to the adapter and mount the syringe on the robot stand
+ - Activate the vacuum system.
+ - Place the weight instrument inside the oven and set the temperature to 100˚C for heating.
+ - Turn on the compressed air at 100 psi.
+ - Activate the Gantry.
+ - Position the wirebonded module carrier on the mini gantry.
+ - Launch the program on the PC.
+ - Perform the Needle Z detect procedure.
+ - Verify the z height and make necessary adjustments in the program.
   
-  ### Step 2: Purging the Dispenser Syring 
   
-  - Turn on the computer and open the nordoson dispense motion software 
-  - Purging can be done via hand by pressing the dispensing button on the EFD Ultimus
-  - Click on the system settings and click on open tab
-  - Clink on the Purge button, purge it at least 5 times
-  - Once the user sees encapsulant coming out slightly then stop and gently touch a kimwipe to the needle tip
+  ### Step 2: Preapring and Moungint the Dispenser Syringe 
   
+  - Connect the spiral mixer to the cartridge barrel.
+  - Securely fasten the blue cap onto the syringe.
+  - Pour mixed encapsulant into the 5cc syringe to about half of its capacity using the mixer and by pressing the dispenser gun.
+  - Utilize the centrifuge machine to eliminate air bubbles from the dispensing syringe barrel.
+  - Arrange the filled syringe and a similarly weighted syringe in opposing positions within the centrifuge rotor. Degas by running the centrifuge at 5000 RPM for a minimum of 10 minutes.
+  - Once the encapsulant has undergone sufficient centrifugation, remove it and inspect for any significant air pockets.
+  - Replace the blue cap with a tightly screwed precision dispense needle (23GA).
+  - Insert a white syringe barrel piston into the syringe, pushing it all the way in to ensure there are no visible trapped air pockets.
+  - Securely attach the syringe to the adapter and mount it on the robot stand.
+
+
   ### Step 3: Starting the Program
-  
-  - Open a saved program or create a new program
-  
-  ### Step 4: Calibrating the Needle Tip 
-  
-  - Hit the "Needle Z Detect" button to calibrate the z height. 
-  - Hit the "Needle XY Adjust" button to calibrate the X & Y position. 
-  
+
+  - Open a saved program or create a new program.
+  - Program should have included the Needle Z detect calibration and fiducial mark adjustment
+   
   ### Step 5: Despensing (Potting)
   
   - Once everything is set the user may go with the saved program or modify the program, allowing the mini-gantry to pot the wire bonds
@@ -116,21 +118,43 @@ Users must complete a short training program with either Caleb or another traine
   
   - If the program is modifed don't forget to save the program
   
-  ### Step 8: Creating and Publishing Report
+  ### Step 8: Survey of the Encapsulation using the Gantry Machine
+
+  - Load the script for the encapsulant survey.
+  - Position the module carrier on chunk 3 on the gantry table.
+  - Run the encasulant survay script 
+
+  ### Step 8: Base Plate Placement using the Gantry Machine
+      
+   - Place the base plate.
+   - Remove the film from the base plate and place it on the carrier.
+   - Run the base plate script.
+  
+  ### Step 9: Encapsulating Bias Wirebonds
+
+   - Right after the installation of the base plate, place the module carrier on the mini-Gantry.
+   - Execute the program for bias wirebonds encapsulation on the mini-Gantry.
+
+  ### Step 10: Curing the Encapsulation
+
+   - Once the modules are completely encapsulated place them inside the weight.
+   - Insert the weight with the module carrier into the vacuum oven at 100˚C for 15 minutes without activating the vacuum.
+   - Allow the module carrier to remain in the oven for an additional 15 minutes with the vacuum activated.
+    
+  ### Step 11: Transfering Modules to the Dry Cabinet
+
+  - Once the encapsulated module are cured transfer them to a designated dry area
+  
+  ### Step 12: Creating and Publishing Report on the Lablog
   
   - Report should contain the batch number and some of the results information from the result section below
   
-  ### Step 9: Transfering Plates to the Curing Vacuum Oven
-  
-  - Once the modules have been encapsulated put them into the vacuum oven at 50 C for an hour to cure the encapsulant
-    
-  ### Step 10: Transfering Modules to the Carrier
-  
-  - Once the encapsulated module are cured transfer them to a designated dry area
+  ### Step 13: Wrapping up
+
+  - Turn off the equipments and make sure the scripts are saved
   
   ## Results 
   
-
   - Needle tip size
   - Air Pressure
   - Encapsulant Bead Dimensions (Width, lenght, Height)
@@ -147,20 +171,18 @@ Users must complete a short training program with either Caleb or another traine
   - Bead Dimension on Glass Plate
   - Bead Dimension vs Speed/Air_Pressure/Tip_Gap/Pass_No/Time/Cure_Time/Tip_Size/Surface
 
-
   ## Timming
-   
-  - Mixing sylgard and filling cartidg barrel: ~ 30 mins
-  - Mixing, filling syringe ~ 10 mins
-  - Degassing (removing air bubbles), mounting syringe on robot ~ 10 mins
-  - Calibration and pruging time: ~ 10 mins
-  - Potting Time 
-  * 1 pass ~ 3.5 mins and Total time for a single module ~ 15 mins
-  * 2 passes ~ 7 mins on a pad. Total time for four pads ~ 30 mins
   
+  - Filling cartidg barrel: ~ 30 mins
+  - Mixing, filling syringe ~ 15 mins
+  - Degassing (removing air bubbles), mounting syringe on robot ~ 10 mins
+  - Dispenseing and Potting ~ 25 mins [Setup: Pressure 100 psi, Needle tip 23GA, Pass no 2]
+  - Encapsulation Survey time ~ 15 mins
+  - Base Plate installatioon ~ 5 mins
+  - Bias Wirebonds Enacapsulation dispense time ~ 15 mins [Setup: Pressure 100 psi. 23 GA needle tip used.]
   - Useful Pot life from time of mix ~ 90 mins
   - Curing time at room temperuture ~ 8 hrs
-  - Curing time in oven at 60˚C ~ 45 mins and at 50˚C ~ 60 mins
+  - Curing time in oven at 100˚C ~ 15 mins and at 50˚C ~ 60 mins
   
 
   ## Height Sensor Mounting and Programming
