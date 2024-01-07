@@ -97,7 +97,7 @@ Users must complete a short training program with either Caleb or another traine
   - Open a saved program or create a new program.
   - Program should have included the Needle Z detect calibration and fiducial mark adjustment
    
-  ### Step 5: Despensing (Potting)
+  ### Step 4: Despensing (Potting)
   
   - Once everything is set the user may go with the saved program or modify the program, allowing the mini-gantry to pot the wire bonds
   - Place the assembled module carrier on the robot base plate
@@ -110,15 +110,15 @@ Users must complete a short training program with either Caleb or another traine
   </tr>
 </table>
   
-  ### Step 6: Removing Syringe from Holder
+  ### Step 5: Removing Syringe from Holder
   
   - Once the working life of encapsulant is over dump the syringe and replace it by new one if needed
   
-  ### Step 7: Saving and Ending the Program
+  ### Step 6: Saving and Ending the Program
   
   - If the program is modifed don't forget to save the program
   
-  ### Step 8: Survey of the Encapsulation using the Gantry Machine
+  ### Step 7: Survey of the Encapsulation using the Gantry Machine
 
   - Load the script for the encapsulant survey.
   - Position the module carrier on chunk 3 on the gantry table.
