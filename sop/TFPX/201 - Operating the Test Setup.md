@@ -16,7 +16,8 @@ This SOP describes step-by-step assembly quality control (QC) testing procedures
 - [RD53A TWiki](https://twiki.cern.ch/twiki/bin/viewauth/RD53/RD53ATesting)
 - [RD53B](https://github.com/nebraska-silicon-lab/Lab-Instructions/blob/master/sop/TFPX/201_materials/RD53B_CMS_Main.pdf)
 - [SOP at production site](https://docs.google.com/document/d/1fTHaYf8PxtNhBlqVFKXlMlH5xZvBGXrcpEw__MC7PI8/edit#heading=h.w4xt7cwcb3fq)
-
+- [Ph2_ACF User guide](https://ph2acf.docs.cern.ch/innerTracker/calibrations/)
+  
 ## Required Materials
 
 - Chiller
